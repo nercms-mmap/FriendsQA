@@ -75,7 +75,7 @@ If you find this repository useful, please consider giving ⭐ or citing:
     title={FriendsQA: A New Large-Scale Deep Video Understanding Dataset with Fine-grained Topic Categorization for Story Videos},
     author={Wu, Zhengqian and Li, Ruizhe and Xu, Zijun and Wang, Zhongyuan and Xiao, Chunxia and Liang, Chao},
     booktitle={The 39th Annual AAAI Conference on Artificial Intelligence},
-    year={2024},
+    year={2025},
 }
 ```
 
