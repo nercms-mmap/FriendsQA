@@ -63,3 +63,19 @@ And you will find questions in directory `json/`， default it will generate `js
 We are continuously optimizing and expanding our StoryMind framework to better adapt and apply it to various types of story videos. In the future, we plan to enhance the framework's flexibility and expressiveness by introducing new algorithms and technologies, ultimately providing users with a richer and more diverse creative experience.
 
 We welcome community feedback and suggestions, and we look forward to exploring the many possibilities of StoryMind together.
+
+
+
+## Citation
+
+If you find this repository useful, please consider giving ⭐ or citing:
+
+```
+@inproceedings{wu2024friendsqa,
+    title={FriendsQA: A New Large-Scale Deep Video Understanding Dataset with Fine-grained Topic Categorization for Story Videos},
+    author={Wu, Zhengqian and Li, Ruizhe and Xu, Zijun and Wang, Zhongyuan and Xiao, Chunxia and Liang, Chao},
+    booktitle={The 39th Annual AAAI Conference on Artificial Intelligence},
+    year={2024},
+}
+```
+
