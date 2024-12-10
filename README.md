@@ -6,6 +6,7 @@
 
 - single-episode questions path: `FriendsQA/friendsqa_single.json`
 - cross-episode questions path: `FriendsQA/friendsqa_cross.json`
+- Videos of $\textit{Friends}$ sitcoms can be found in [Link ](https://www.amazon.com/Friends-The-Complete-First-Season/dp/B000N8GL34) or other websites. For the name of video, `S` means season, `E` means episode (e.g., `S01E01` means season 1 episode 1).
 
 
 
