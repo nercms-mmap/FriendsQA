@@ -1,0 +1,867 @@
+[
+    {
+        "id": 1,
+        "vid": "S01E01",
+        "scenes": [],
+        "question": "How many main characters are present in the opening scene at Central Perk?",
+        "choices": [
+            "Four",
+            "Five",
+            "Six",
+            "Seven"
+        ],
+        "GT": "Five",
+        "option": "B",
+        "topic": "C",
+        "gemini_check": [
+            "True",
+            "Five"
+        ],
+        "claude_check": [
+            "True",
+            "Five"
+        ],
+        "attribution": "perception",
+        "characters": [
+            "Monica",
+            "Chandler",
+            "Joey",
+            "Phoebe",
+            "Ross",
+            "Rachel"
+        ],
+        "locations": [
+            "Central Perk"
+        ],
+        "times": [
+            "00:49-01:16"
+        ]
+    },
+    {
+        "id": 2,
+        "vid": "S01E01",
+        "scenes": [
+            2
+        ],
+        "question": "In Scene 2 at Monica's apartment, who arrives unexpectedly?",
+        "choices": [
+            "Ross",
+            "Rachel",
+            "Paul",
+            "Janice"
+        ],
+        "GT": "Rachel",
+        "option": "B",
+        "topic": "C",
+        "gemini_check": [
+            "True",
+            "Rachel"
+        ],
+        "claude_check": [
+            "True",
+            "Rachel"
+        ],
+        "attribution": "perception",
+        "characters": [
+            "Rachel",
+            "Monica",
+            "Chandler",
+            "Phoebe",
+            "Joey",
+            "Ross"
+        ],
+        "locations": [
+            "Monica's Apartment"
+        ],
+        "times": [
+            "05:22-08:14"
+        ]
+    },
+    {
+        "id": 3,
+        "vid": "S01E01",
+        "scenes": [],
+        "question": "Who are the main characters present throughout the entire episode?",
+        "choices": [
+            "Monica, Chandler, Phoebe, Joey, and Rachel",
+            "Monica, Chandler, Phoebe, Joey, Rachel, and Ross",
+            "Monica, Chandler, Phoebe, and Rachel",
+            "Chandler, Phoebe, Joey, and Ross"
+        ],
+        "GT": "Monica, Chandler, Phoebe, Joey, Rachel, and Ross",
+        "option": "B",
+        "topic": "C",
+        "gemini_check": [
+            "True",
+            "Monica, Chandler, Phoebe, Joey, Rachel, and Ross"
+        ],
+        "claude_check": [
+            "True",
+            "Monica, Chandler, Phoebe, Joey, Rachel, and Ross"
+        ],
+        "attribution": "inference",
+        "characters": [
+            "Monica",
+            "Chandler",
+            "Phoebe",
+            "Joey",
+            "Rachel",
+            "Ross"
+        ],
+        "locations": [
+            "Central Perk, Monica\u2019s Apartment, Ross's Apartment, Restaurant"
+        ],
+        "times": [
+            "00:49-22:38"
+        ]
+    },
+    {
+        "id": 4,
+        "vid": "S01E01",
+        "scenes": [],
+        "question": "Throughout the series, how does Ross's emotional state change in relation to his relationship with Rachel?",
+        "choices": [
+            "His feelings evolve from friendly affection to romantic interest.",
+            "He remains indifferent towards her.",
+            "He becomes increasingly annoyed by her presence.",
+            "He develops a strong dislike for her."
+        ],
+        "GT": "His feelings evolve from friendly affection to romantic interest.",
+        "option": "A",
+        "topic": "C",
+        "gemini_check": [
+            "False",
+            "None"
+        ],
+        "claude_check": [
+            "False",
+            "None"
+        ],
+        "attribution": "inference",
+        "characters": [
+            "Ross",
+            "Rachel"
+        ],
+        "locations": [
+            "Central Perk, Monica\u2019s Apartment, Ross's Apartment, Restaurant"
+        ],
+        "times": [
+            "00:49-22:38"
+        ]
+    },
+    {
+        "id": 5,
+        "vid": "S01E01",
+        "scenes": [
+            2
+        ],
+        "question": "What is the primary activity taking place in Scene 2 at Monica's apartment?",
+        "choices": [
+            "Watching TV",
+            "Assembling furniture",
+            "Drinking coffee",
+            "Eating dinner"
+        ],
+        "GT": "Watching TV",
+        "option": "A",
+        "topic": "A",
+        "gemini_check": [
+            "True",
+            "Watching TV"
+        ],
+        "claude_check": [
+            "True",
+            "Watching TV"
+        ],
+        "attribution": "perception",
+        "characters": [
+            "Monica",
+            "Chandler",
+            "Phoebe",
+            "Joey",
+            "Rachel",
+            "Ross"
+        ],
+        "locations": [
+            "Monica's Apartment"
+        ],
+        "times": [
+            "05:22-07:13"
+        ]
+    },
+    {
+        "id": 6,
+        "vid": "S01E01",
+        "scenes": [],
+        "question": "What action immediately follows Monica telling Rachel about Paul's 'inability to perform'?",
+        "choices": [
+            "Monica smashes Paul's watch.",
+            "Rachel finds Paul's watch.",
+            "Ross comforts Monica.",
+            "Joey makes a joke."
+        ],
+        "GT": "Rachel finds Paul's watch.",
+        "option": "B",
+        "topic": "A",
+        "gemini_check": [
+            "True",
+            "Rachel finds Paul's watch."
+        ],
+        "claude_check": [
+            "True",
+            "Rachel finds Paul's watch."
+        ],
+        "attribution": "perception",
+        "characters": [
+            "Monica",
+            "Paul"
+        ],
+        "locations": [
+            "Restaurant"
+        ],
+        "times": [
+            "12:51-13:08"
+        ]
+    },
+    {
+        "id": 7,
+        "vid": "S01E01",
+        "scenes": [],
+        "question": "What actions occur both at Central Perk and at Ross's apartment?",
+        "choices": [
+            "Drinking coffee and discussing relationships",
+            "Assembling furniture and watching TV",
+            "Eating and talking about work",
+            "Playing games and listening to music"
+        ],
+        "GT": "Drinking coffee and discussing relationships",
+        "option": "A",
+        "topic": "A",
+        "gemini_check": [
+            "False",
+            "None"
+        ],
+        "claude_check": [
+            "False",
+            "None"
+        ],
+        "attribution": "inference",
+        "characters": [
+            "Monica",
+            "Chandler",
+            "Phoebe",
+            "Joey",
+            "Rachel",
+            "Ross"
+        ],
+        "locations": [
+            "Central Perk",
+            "Ross's Apartment"
+        ],
+        "times": [
+            "00:49-03:25",
+            "09:34-10:24"
+        ]
+    },
+    {
+        "id": 8,
+        "vid": "S01E01",
+        "scenes": [],
+        "question": "In which location does the majority of the episode take place?",
+        "choices": [
+            "Central Perk",
+            "Monica's apartment",
+            "Ross's apartment",
+            "A restaurant"
+        ],
+        "GT": "Monica's apartment",
+        "option": "B",
+        "topic": "L",
+        "gemini_check": [
+            "True",
+            "Monica's apartment"
+        ],
+        "claude_check": [
+            "True",
+            "Monica's apartment"
+        ],
+        "attribution": "perception",
+        "characters": [
+            "Monica",
+            "Paul"
+        ],
+        "locations": [
+            "Restaurant"
+        ],
+        "times": [
+            "10:24-10:52"
+        ]
+    },
+    {
+        "id": 9,
+        "vid": "S01E01",
+        "scenes": [],
+        "question": "How many distinct locations are featured in this episode?",
+        "choices": [
+            "Three",
+            "Four",
+            "Five",
+            "Six"
+        ],
+        "GT": "Four",
+        "option": "B",
+        "topic": "L",
+        "gemini_check": [
+            "True",
+            "Four"
+        ],
+        "claude_check": [
+            "True",
+            "Four"
+        ],
+        "attribution": "inference",
+        "characters": [
+            "Monica",
+            "Chandler",
+            "Phoebe",
+            "Joey",
+            "Rachel",
+            "Ross"
+        ],
+        "locations": [
+            "Central Perk, Monica\u2019s Apartment, Ross's Apartment, Restaurant"
+        ],
+        "times": [
+            "00:49-22:38"
+        ]
+    },
+    {
+        "id": 10,
+        "vid": "S01E01",
+        "scenes": [],
+        "question": "How does the use of Monica's apartment contribute to the overall narrative of the episode?",
+        "choices": [
+            "It serves as a safe haven for Rachel.",
+            "It is the primary location for romantic interactions.",
+            "It is where the group resolves conflicts.",
+            "It provides a backdrop for comedic misunderstandings."
+        ],
+        "GT": "It serves as a safe haven for Rachel.",
+        "option": "A",
+        "topic": "L",
+        "gemini_check": [
+            "True",
+            "It serves as a safe haven for Rachel."
+        ],
+        "claude_check": [
+            "True",
+            "It serves as a safe haven for Rachel."
+        ],
+        "attribution": "inference",
+        "characters": [
+            "Monica",
+            "Chandler",
+            "Phoebe",
+            "Joey",
+            "Rachel",
+            "Ross"
+        ],
+        "locations": [
+            "Monica's Apartment"
+        ],
+        "times": [
+            "00:49-22:38"
+        ]
+    },
+    {
+        "id": 11,
+        "vid": "S01E01",
+        "scenes": [
+            4
+        ],
+        "question": "In Scene 4 at Ross's apartment, what does Joey do with the 'L' shaped bracket?",
+        "choices": [
+            "He attaches it to the bookcase.",
+            "He throws it away.",
+            "He gives it to Ross.",
+            "He hides it in a plant."
+        ],
+        "GT": "He hides it in a plant.",
+        "option": "D",
+        "topic": "CA",
+        "gemini_check": [
+            "True",
+            "He hides it in a plant."
+        ],
+        "claude_check": [
+            "True",
+            "He hides it in a plant."
+        ],
+        "attribution": "perception",
+        "characters": [
+            "Joey",
+            "Chandler",
+            "Ross"
+        ],
+        "locations": [
+            "Ross's Apartment"
+        ],
+        "times": [
+            "09:34-10:01"
+        ]
+    },
+    {
+        "id": 12,
+        "vid": "S01E01",
+        "scenes": [
+            10
+        ],
+        "question": "In Scene 10, what is Ross's reaction to Rachel's recounting of her wedding day?",
+        "choices": [
+            "He offers her sympathy and support.",
+            "He makes light of her situation.",
+            "He ignores her story.",
+            "He changes the subject."
+        ],
+        "GT": "He offers her sympathy and support.",
+        "option": "A",
+        "topic": "CA",
+        "gemini_check": [
+            "False",
+            "None"
+        ],
+        "claude_check": [
+            "False",
+            "None"
+        ],
+        "attribution": "inference",
+        "characters": [
+            "Ross",
+            "Rachel"
+        ],
+        "locations": [
+            "Ross's Apartment"
+        ],
+        "times": [
+            "13:35-13:55"
+        ]
+    },
+    {
+        "id": 13,
+        "vid": "S01E01",
+        "scenes": [],
+        "question": "Throughout the episode, how do the characters' actions at Central Perk reflect their relationships with each other?",
+        "choices": [
+            "Their conversations reveal their shared history and close bonds.",
+            "Their interactions are primarily transactional.",
+            "They primarily discuss work-related matters.",
+            "They avoid personal conversations."
+        ],
+        "GT": "Their conversations reveal their shared history and close bonds.",
+        "option": "A",
+        "topic": "CA",
+        "gemini_check": [
+            "True",
+            "Their conversations reveal their shared history and close bonds."
+        ],
+        "claude_check": [
+            "True",
+            "Their conversations reveal their shared history and close bonds."
+        ],
+        "attribution": "inference",
+        "characters": [
+            "Monica",
+            "Chandler",
+            "Phoebe",
+            "Joey",
+            "Rachel",
+            "Ross"
+        ],
+        "locations": [
+            "Central Perk"
+        ],
+        "times": [
+            "00:00-22:38"
+        ]
+    },
+    {
+        "id": 14,
+        "vid": "S01E01",
+        "scenes": [
+            1,
+            3,
+            7
+        ],
+        "question": "Who is present in Scene 1 at Central Perk, Scene 3 at Monica's Apartment, and Scene 7 at Ross's Apartment?",
+        "choices": [
+            "Monica, Chandler, Phoebe, Joey, and Ross",
+            "Monica, Chandler, Phoebe, Joey, Rachel, and Ross",
+            "Monica, Chandler, Phoebe, and Rachel",
+            "Chandler, Phoebe, Joey, and Ross"
+        ],
+        "GT": "Monica, Chandler, Phoebe, Joey, and Ross",
+        "option": "A",
+        "topic": "CL",
+        "gemini_check": [
+            "False",
+            "None"
+        ],
+        "claude_check": [
+            "False",
+            "None"
+        ],
+        "attribution": "inference",
+        "characters": [
+            "Monica",
+            "Chandler",
+            "Joey",
+            "Phoebe",
+            "Ross"
+        ],
+        "locations": [
+            "Central Perk",
+            "Monica and Rachel's"
+        ],
+        "times": [
+            "00:49-05:07",
+            "17:31-18:37"
+        ]
+    },
+    {
+        "id": 15,
+        "vid": "S01E01",
+        "scenes": [],
+        "question": "Which characters are present both at Central Perk and Monica's apartment throughout the episode?",
+        "choices": [
+            "Monica, Chandler, Phoebe, Joey, and Rachel",
+            "Monica, Chandler, Phoebe, Joey, Rachel, and Ross",
+            "Monica, Phoebe, and Rachel",
+            "Chandler, Joey, and Ross"
+        ],
+        "GT": "Monica, Phoebe, and Rachel",
+        "option": "C",
+        "topic": "CL",
+        "gemini_check": [
+            "True",
+            "Monica, Chandler, Phoebe, Joey, and Rachel"
+        ],
+        "claude_check": [
+            "True",
+            "Monica, Chandler, Phoebe, Joey, and Rachel"
+        ],
+        "attribution": "inference",
+        "characters": [
+            "Monica",
+            "Chandler",
+            "Phoebe",
+            "Joey",
+            "Rachel",
+            "Ross"
+        ],
+        "locations": [
+            "Central Perk, Monica\u2019s Apartment, Ross's Apartment"
+        ],
+        "times": [
+            "00:49-22:38"
+        ]
+    },
+    {
+        "id": 16,
+        "vid": "S01E01",
+        "scenes": [],
+        "question": "How does Rachel's transition from her wedding day to seeking employment affect her interactions with the group?",
+        "choices": [
+            "It strengthens her bond with Monica.",
+            "It causes tension within the group.",
+            "It leads to a romantic relationship with Ross.",
+            "It has little impact on her interactions."
+        ],
+        "GT": "It strengthens her bond with Monica.",
+        "option": "A",
+        "topic": "CL",
+        "gemini_check": [
+            "True",
+            "It strengthens her bond with Monica."
+        ],
+        "claude_check": [
+            "True",
+            "It strengthens her bond with Monica."
+        ],
+        "attribution": "inference",
+        "characters": [
+            "Rachel",
+            "Monica",
+            "Ross"
+        ],
+        "locations": [
+            "Monica's Apartment"
+        ],
+        "times": [
+            "04:51-05:07"
+        ]
+    },
+    {
+        "id": 17,
+        "vid": "S01E01",
+        "scenes": [],
+        "question": "What action is taking place at Central Perk in the final scene?",
+        "choices": [
+            "Drinking coffee",
+            "Discussing relationships",
+            "Playing cards",
+            "Watching TV"
+        ],
+        "GT": "Drinking coffee",
+        "option": "A",
+        "topic": "AL",
+        "gemini_check": [
+            "True",
+            "Drinking coffee"
+        ],
+        "claude_check": [
+            "True",
+            "Drinking coffee"
+        ],
+        "attribution": "perception",
+        "characters": [
+            "Joey",
+            "Chandler",
+            "Rachel",
+            "Monica",
+            "Paul"
+        ],
+        "locations": [
+            "Monica\u2019s Apartment"
+        ],
+        "times": [
+            "14:16-15:20"
+        ]
+    },
+    {
+        "id": 18,
+        "vid": "S01E01",
+        "scenes": [],
+        "question": "In what location do the characters discuss the concept of a 'real date'?",
+        "choices": [
+            "Central Perk",
+            "Monica's apartment",
+            "Ross's apartment",
+            "A restaurant"
+        ],
+        "GT": "Monica's apartment",
+        "option": "B",
+        "topic": "AL",
+        "gemini_check": [
+            "True",
+            "Monica's apartment"
+        ],
+        "claude_check": [
+            "True",
+            "Monica's apartment"
+        ],
+        "attribution": "inference",
+        "characters": [
+            "Monica",
+            "Paul"
+        ],
+        "locations": [
+            "Restaurant"
+        ],
+        "times": [
+            "10:24-12:31"
+        ]
+    },
+    {
+        "id": 19,
+        "vid": "S01E01",
+        "scenes": [],
+        "question": "How do the actions and conversations at Monica's apartment reveal the characters' support for each other?",
+        "choices": [
+            "They offer advice and support to each other.",
+            "They engage in playful banter and teasing.",
+            "They discuss their work and career aspirations.",
+            "They argue and disagree frequently."
+        ],
+        "GT": "They offer advice and support to each other.",
+        "option": "A",
+        "topic": "AL",
+        "gemini_check": [
+            "True",
+            "They offer advice and support to each other."
+        ],
+        "claude_check": [
+            "True",
+            "They offer advice and support to each other."
+        ],
+        "attribution": "inference",
+        "characters": [
+            "Monica",
+            "Chandler",
+            "Phoebe",
+            "Joey",
+            "Rachel",
+            "Ross"
+        ],
+        "locations": [
+            "Central Perk, Monica\u2019s Apartment, Ross's Apartment, Restaurant"
+        ],
+        "times": [
+            "00:49-22:38"
+        ]
+    },
+    {
+        "id": 20,
+        "vid": "S01E01",
+        "scenes": [
+            1
+        ],
+        "question": "In Scene 1 at Central Perk, who makes a comment about Monica's date?",
+        "choices": [
+            "Chandler",
+            "Joey",
+            "Phoebe",
+            "Ross"
+        ],
+        "GT": "Joey",
+        "option": "B",
+        "topic": "CAL",
+        "gemini_check": [
+            "True",
+            "Joey"
+        ],
+        "claude_check": [
+            "True",
+            "Joey"
+        ],
+        "attribution": "perception",
+        "characters": [
+            "Joey",
+            "Chandler",
+            "Phoebe",
+            "Monica",
+            "Ross",
+            "Rachel"
+        ],
+        "locations": [
+            "Central Perk",
+            "Monica's Apartment"
+        ],
+        "times": [
+            "00:49-05:07",
+            "14:16-17:27"
+        ]
+    },
+    {
+        "id": 21,
+        "vid": "S01E01",
+        "scenes": [
+            7
+        ],
+        "question": "In Scene 7 at Ross's apartment, what does Joey offer Ross after hearing about his marital troubles?",
+        "choices": [
+            "He invites him to go to a strip club.",
+            "He offers to help him assemble furniture.",
+            "He suggests he talk to Carol.",
+            "He gives him relationship advice."
+        ],
+        "GT": "He invites him to go to a strip club.",
+        "option": "A",
+        "topic": "CAL",
+        "gemini_check": [
+            "True",
+            "He invites him to go to a strip club."
+        ],
+        "claude_check": [
+            "True",
+            "He invites him to go to a strip club."
+        ],
+        "attribution": "inference",
+        "characters": [
+            "Joey",
+            "Ross"
+        ],
+        "locations": [
+            "Central Perk"
+        ],
+        "times": [
+            "00:49-03:25"
+        ]
+    },
+    {
+        "id": 22,
+        "vid": "S01E01",
+        "scenes": [],
+        "question": "How do the characters' actions and dialogue at both Central Perk and Monica's apartment contribute to the themes of friendship and starting over?",
+        "choices": [
+            "It emphasizes the importance of platonic relationships.",
+            "It highlights the challenges of navigating romantic relationships.",
+            "It explores the difficulties of adjusting to life in a new city.",
+            "It focuses on the struggles of finding employment."
+        ],
+        "GT": "It emphasizes the importance of platonic relationships.",
+        "option": "A",
+        "topic": "CAL",
+        "gemini_check": [
+            "True",
+            "It emphasizes the importance of platonic relationships."
+        ],
+        "claude_check": [
+            "True",
+            "It emphasizes the importance of platonic relationships."
+        ],
+        "attribution": "inference",
+        "characters": [
+            "Monica",
+            "Chandler",
+            "Phoebe",
+            "Joey",
+            "Rachel",
+            "Ross"
+        ],
+        "locations": [
+            "Ross's Apartment"
+        ],
+        "times": [
+            "07:24-07:32",
+            "11:16-12:07"
+        ]
+    },
+    {
+        "id": 23,
+        "vid": "S01E01",
+        "scenes": [],
+        "question": "What is Rachel doing in the final scene at Central Perk, and who is she with?",
+        "choices": [
+            "Serving coffee to her friends",
+            "Talking on the phone with Barry",
+            "Shopping for new clothes",
+            "Looking for a job"
+        ],
+        "GT": "Serving coffee to her friends",
+        "option": "A",
+        "topic": "CAL",
+        "gemini_check": [
+            "True",
+            "Serving coffee to her friends"
+        ],
+        "claude_check": [
+            "True",
+            "Serving coffee to her friends"
+        ],
+        "attribution": "perception",
+        "characters": [
+            "Rachel",
+            "Ross",
+            "Monica",
+            "Chandler",
+            "Phoebe",
+            "Joey"
+        ],
+        "locations": [
+            "Central Perk, Monica\u2019s Apartment"
+        ],
+        "times": [
+            "00:00-22:38"
+        ]
+    }
+]

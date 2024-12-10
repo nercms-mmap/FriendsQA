@@ -1,0 +1,23 @@
+1 True Five
+2 True Rachel
+3 True Monica, Chandler, Phoebe, Joey, Rachel, and Ross
+4 False None
+5 True Watching TV
+6 True Rachel finds Paul's watch.
+7 False None
+8 True Monica's apartment
+9 True Four
+10 True It serves as a safe haven for Rachel.
+11 True He hides it in a plant.
+12 False None
+13 True Their conversations reveal their shared history and close bonds.
+14 False None
+15 True Monica, Chandler, Phoebe, Joey, and Rachel
+16 True It strengthens her bond with Monica.
+17 True Drinking coffee
+18 True Monica's apartment
+19 True They offer advice and support to each other.
+20 True Joey
+21 True He invites him to go to a strip club.
+22 True It emphasizes the importance of platonic relationships.
+23 True Serving coffee to her friends

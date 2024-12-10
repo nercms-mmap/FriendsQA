@@ -1,0 +1,81 @@
+For C (Only about character, action and location should not appear in question and choices list): 
+- Perception: 
+  - How many important characters from within the TV series appear in Scene 1? 
+  - In Scene 2, in what order do the characters appear?  
+- Inference
+  - In Scene 3 and Scene 4, which characters appear in both scenes? 
+  - Who are the main characters in this video that contribute to the plot? 
+  - Which characters are present in both Scene 5 and Scene 6, and also in Scene 7?
+  - Across the entire episode, how does Character1's (growth/moods change/opinions)?
+  - Throughout the episode, how does Character2 demonstrate her unique personality and values?
+  - How does Character3's attitude towards independence and responsibility change from the beginning to the end of the episode?
+  - Across multiple scenes, how does Character4's relationship with his sister Character5 provide emotional support for him?
+For A (Only about action, accurate name of character and location should not appear in question and choices list):
+- Perception:  
+  - What is the main action taking place in Scene 2?
+  - What is the order of appearance of actions in Scene 4? 
+  - What is the order of appearance of actions in Scene 7 and Scene 10?             
+- Inference:
+  - In both Scene 1 and Scene 3, what actions appear simultaneously in both scenes?   
+  - Which scene contains the action sequence "smokes, enters, hides the cigarette, speaks"?
+  - How do the actions related to preparing and consuming meals highlight the characters' interactions throughout the episode?
+  - Across multiple scenes, how do the characters' actions involving giving and receiving advice demonstrate the group's dynamics over time?
+For L (Only about location, accurate name of character and action should not appear in question and choices list):
+- Perception
+  - In which location does Scene 5 take place?
+  - In Scene 3, where do the characters gather?
+- Inference
+  - Which scenes take place at location4?
+  - How many locations appear in this video?
+  - How does the use of Character5's apartment throughout the episode establish it as a central location for the group's activities?
+  - Throughout the episode, how does Character4's apartment serve as a place for interactions?
+  - How do the scenes set at location1 contribute to the development of the characters' relationships over the course of the episode?
+  - what role does Character3's apartment play in his interactions with his friends and his emotional recovery throughout the episode?
+For CA(Only about character and action,accurate name of location should not appear in question and choices list):
+- Perception:
+  - What action does Character6 perform while Character5 is practicing his lines?
+  - Which character takes a puff of a cigarette during the rehearsal scene?
+  - Who helps Character6 practice his lines and what action does Character5 perform after lighting the cigarette?
+- Inference
+  - In Scene 2, after Character4 greets everyone, what action do the other characters perform?
+  - In Scene 9, what is the next action after the action sequence "Character1 speaks, Character7 responds, Character2 nods"?
+  - Which scene contains the following action sequence: "Character4 smokes, Character3 enters, Character4 hides the cigarette, Character3 speaks"?
+  - How do Character2's interactions and actions with Character1 and Character5 in various scenes depict her role within the friend group?
+  - How do Character6's actions and jokes across multiple scenes demonstrate his coping mechanisms for stress?
+  - In what ways do Character4's actions towards Ross and Rachel throughout the episode demonstrate his supportive nature?
+For CL(Only about character and location, action should not appear in question and choices list):
+- Perception:
+  - In Scene 13 which characters are gathered at location2?
+  - In which scene do Character5 and Character7 appear together?
+- Inference
+  - Who's the guy to Character4's left in this clip?
+  - Which characters appear at Character2's apartment in Scene 4 and also appear at location3 in Scene 14?
+  - Which characters appear in both Character5 and Character6's apartment in Scene 12 and location1 in Scene 5?
+  - Which characters are present in both Scene 1 (location5) and Scene 3 (Character5's apartment) and also appear in Scene 5 (location3)?
+  - Which characters consistently appear at Character4's apartment throughout the episode, and how does this setting contribute to the plot?
+  - How do the gatherings at Character5's apartment and location2 over the episode reflect the group's social dynamics?
+  - How do Character1's movements between different locations throughout the episode signify her integration into the group?
+For AL(Only about action and location, accurate name of character should not appear in question and choices list):
+- Perception:
+  - What action is taking place in Scene 3 at location1?
+  - What sequence of actions takes place in Scene 7 at location5?
+- Inference
+  - In Scene 12 and Scene 15, what actions occur in both locations?
+  - In Scene 1, what is the next action after "Sitting, discussing" at location4?
+  - Which scene contains the following actions at Character3 and Character4's apartment: "Practicing lines, lighting a cigarette, coughing"?
+  - Across multiple scenes at Character2's apartment, what actions reflect the characters' reliance on this location for emotional support?
+  - How do the actions performed at Character6's apartment across multiple scenes illustrate his process of moving on from his marriage?
+  - How do the actions taking place in Character5's apartment in different scenes highlight the importance of this location for emotional support?
+For CAL(character, action and location should be in question and choices list):
+- Perception
+  - Who is discussing a topic at location1 in Scene 12?
+  - In Scene 3 at location5, who is sitting, discussing, and then standing up?
+- Inference
+  - What's the guy to Character4's left doing in this clip?
+  - In Scene 6 at the street, who gives $1000 and a football phone, and what action do they perform next?
+  - Which scene features characters sitting on a couch, discussing a dating language, at location2?
+  - How do the scenes at location3 and Character5's apartment complement each other in depicting the characters' daily lives?
+  - How do the interactions at location2 and Character1's apartment across various scenes reveal the core dynamics of the friend group?
+  - How do the combined actions and interactions in Character4's apartment and Ross's apartment illustrate the main themes of friendship and support in the episode?
+  - How does the group's behavior at location1 and Character2's apartment throughout the episode highlight their reliance on each other during personal challenges?
+Examples are for reference only, Please generate in the form of reference examples. The specific content of the generated questions should be based on the actual situation of the scripts.

@@ -1,0 +1,537 @@
+[
+    {
+        "id": 1,
+        "vid": [
+            "S01E01",
+            "S01E02",
+            "S01E03",
+            "S01E04"
+        ],
+        "question": "Which two characters are siblings?",
+        "choices": [
+            "Ross and Monica",
+            "Chandler and Joey",
+            "Phoebe and Rachel",
+            "Joey and Rachel"
+        ],
+        "GT": "Ross and Monica",
+        "option": "A",
+        "topic": "C",
+        "gemini_check": [
+            "True",
+            "Ross and Monica"
+        ],
+        "claude_check": [
+            "True",
+            "Ross and Monica"
+        ],
+        "attribution": "perception",
+        "characters": [
+            "Ross",
+            "Monica"
+        ],
+        "locations": [
+            "Central Perk",
+            "Monica's Apartment"
+        ],
+        "times": [
+            "03:48-04:00",
+            "30:57-32:00"
+        ]
+    },
+    {
+        "id": 2,
+        "vid": [
+            "S01E01",
+            "S01E02",
+            "S01E03",
+            "S01E04"
+        ],
+        "question": "Who left their fianc\u00e9 at the altar?",
+        "choices": [
+            "Monica",
+            "Phoebe",
+            "Rachel",
+            "Carol"
+        ],
+        "GT": "Rachel",
+        "option": "C",
+        "topic": "C",
+        "gemini_check": [
+            "True",
+            "Rachel"
+        ],
+        "claude_check": [
+            "True",
+            "Rachel"
+        ],
+        "attribution": "perception",
+        "characters": [
+            "Rachel",
+            "Barry"
+        ],
+        "locations": [
+            "Monica's Apartment"
+        ],
+        "times": [
+            "03:29-04:45"
+        ]
+    },
+    {
+        "id": 3,
+        "vid": [
+            "S01E01",
+            "S01E02",
+            "S01E03",
+            "S01E04"
+        ],
+        "question": "Which character is revealed to be expecting a baby?",
+        "choices": [
+            "Carol",
+            "Susan",
+            "Monica",
+            "Rachel"
+        ],
+        "GT": "Carol",
+        "option": "A",
+        "topic": "C",
+        "gemini_check": [
+            "True",
+            "Carol"
+        ],
+        "claude_check": [
+            "True",
+            "Carol"
+        ],
+        "attribution": "perception",
+        "characters": [
+            "Carol",
+            "Ross",
+            "Susan"
+        ],
+        "locations": [
+            "Museum of Prehistoric History"
+        ],
+        "times": [
+            "25:44-26:23"
+        ]
+    },
+    {
+        "id": 4,
+        "vid": [
+            "S01E01",
+            "S01E02",
+            "S01E03",
+            "S01E04"
+        ],
+        "question": "Who struggles with a nicotine addiction?",
+        "choices": [
+            "Chandler",
+            "Joey",
+            "Ross",
+            "Phoebe"
+        ],
+        "GT": "Chandler",
+        "option": "A",
+        "topic": "C",
+        "gemini_check": [
+            "True",
+            "Chandler"
+        ],
+        "claude_check": [
+            "True",
+            "Chandler"
+        ],
+        "attribution": "perception",
+        "characters": [
+            "Chandler"
+        ],
+        "locations": [
+            "Central Perk",
+            "Chandler and Joey's"
+        ],
+        "times": [
+            "48:01-67:59"
+        ]
+    },
+    {
+        "id": 5,
+        "vid": [
+            "S01E01",
+            "S01E02",
+            "S01E03",
+            "S01E04"
+        ],
+        "question": "Which character offers a homeless person a large sum of money?",
+        "choices": [
+            "Phoebe",
+            "Rachel",
+            "Monica",
+            "Joey"
+        ],
+        "GT": "Phoebe",
+        "option": "A",
+        "topic": "C",
+        "gemini_check": [
+            "True",
+            "Phoebe"
+        ],
+        "claude_check": [
+            "True",
+            "Phoebe"
+        ],
+        "attribution": "perception",
+        "characters": [
+            "Phoebe",
+            "Lizzie"
+        ],
+        "locations": [
+            "A Street"
+        ],
+        "times": [
+            "57:27-58:00"
+        ]
+    },
+    {
+        "id": 6,
+        "vid": [
+            "S01E01",
+            "S01E02",
+            "S01E03",
+            "S01E04"
+        ],
+        "question": "Who works as a waitress at Central Perk?",
+        "choices": [
+            "Rachel",
+            "Monica",
+            "Phoebe",
+            "Marsha"
+        ],
+        "GT": "Rachel",
+        "option": "A",
+        "topic": "C",
+        "gemini_check": [
+            "True",
+            "Rachel"
+        ],
+        "claude_check": [
+            "True",
+            "Rachel"
+        ],
+        "attribution": "perception",
+        "characters": [
+            "Rachel"
+        ],
+        "locations": [
+            "Central Perk"
+        ],
+        "times": [
+            "14:16-15:20"
+        ]
+    },
+    {
+        "id": 7,
+        "vid": [
+            "S01E01",
+            "S01E02",
+            "S01E03",
+            "S01E04"
+        ],
+        "question": "What object does Rachel obsess over instead of her fianc\u00e9?",
+        "choices": [
+            "A gravy boat",
+            "A purse",
+            "A shoe",
+            "A hat"
+        ],
+        "GT": "A gravy boat",
+        "option": "A",
+        "topic": "A",
+        "gemini_check": [
+            "True",
+            "A gravy boat"
+        ],
+        "claude_check": [
+            "True",
+            "A gravy boat"
+        ],
+        "attribution": "perception",
+        "characters": [
+            "Rachel",
+            "Barry"
+        ],
+        "locations": [
+            "Monica's Apartment"
+        ],
+        "times": [
+            "04:14-04:35"
+        ]
+    },
+    {
+        "id": 8,
+        "vid": [
+            "S01E01",
+            "S01E02",
+            "S01E03",
+            "S01E04"
+        ],
+        "question": "What game do the friends play during a slumber party?",
+        "choices": [
+            "Twister",
+            "Monopoly",
+            "Operation",
+            "Scrabble"
+        ],
+        "GT": "Twister",
+        "option": "A",
+        "topic": "A",
+        "gemini_check": [
+            "True",
+            "Twister"
+        ],
+        "claude_check": [
+            "True",
+            "Twister"
+        ],
+        "attribution": "perception",
+        "characters": [
+            "Monica",
+            "Phoebe",
+            "Rachel"
+        ],
+        "locations": [
+            "Monica's Apartment"
+        ],
+        "times": [
+            "76:52-78:03"
+        ]
+    },
+    {
+        "id": 9,
+        "vid": [
+            "S01E01",
+            "S01E02",
+            "S01E03",
+            "S01E04"
+        ],
+        "question": "What sport do the male friends attend together?",
+        "choices": [
+            "Baseball",
+            "Basketball",
+            "Football",
+            "Hockey"
+        ],
+        "GT": "Hockey",
+        "option": "D",
+        "topic": "A",
+        "gemini_check": [
+            "True",
+            "Hockey"
+        ],
+        "claude_check": [
+            "True",
+            "Hockey"
+        ],
+        "attribution": "perception",
+        "characters": [
+            "Joey",
+            "Chandler",
+            "Ross"
+        ],
+        "locations": [
+            "Central Perk"
+        ],
+        "times": [
+            "70:40-72:00"
+        ]
+    },
+    {
+        "id": 10,
+        "vid": [
+            "S01E01",
+            "S01E02",
+            "S01E03",
+            "S01E04"
+        ],
+        "question": "Who impersonates David Hasselhoff?",
+        "choices": [
+            "Joey",
+            "Chandler",
+            "Ross",
+            "Alan"
+        ],
+        "GT": "Chandler",
+        "option": "B",
+        "topic": "A",
+        "gemini_check": [
+            "True",
+            "Chandler"
+        ],
+        "claude_check": [
+            "True",
+            "Chandler"
+        ],
+        "attribution": "perception",
+        "characters": [
+            "Chandler",
+            "Alan"
+        ],
+        "locations": [
+            "Monica's Apartment"
+        ],
+        "times": [
+            "55:38-55:44"
+        ]
+    },
+    {
+        "id": 11,
+        "vid": [
+            "S01E01",
+            "S01E02",
+            "S01E03",
+            "S01E04"
+        ],
+        "question": "What unusual item does Phoebe find in a can of soda?",
+        "choices": [
+            "A toe",
+            "A thumb",
+            "A finger",
+            "An eyeball"
+        ],
+        "GT": "A thumb",
+        "option": "B",
+        "topic": "A",
+        "gemini_check": [
+            "True",
+            "A thumb"
+        ],
+        "claude_check": [
+            "True",
+            "A thumb"
+        ],
+        "attribution": "perception",
+        "characters": [
+            "Phoebe",
+            "Lizzie"
+        ],
+        "locations": [
+            "A Street"
+        ],
+        "times": [
+            "59:04-59:21"
+        ]
+    },
+    {
+        "id": 12,
+        "vid": [
+            "S01E01",
+            "S01E02",
+            "S01E03",
+            "S01E04"
+        ],
+        "question": "What job does Ross have?",
+        "choices": [
+            "Paleontologist",
+            "Orthodontist",
+            "Chef",
+            "Actor"
+        ],
+        "GT": "Paleontologist",
+        "option": "A",
+        "topic": "A",
+        "gemini_check": [
+            "True",
+            "Paleontologist"
+        ],
+        "claude_check": [
+            "True",
+            "Paleontologist"
+        ],
+        "attribution": "perception",
+        "characters": [
+            "Ross"
+        ],
+        "locations": [
+            "Museum of Prehistoric History"
+        ],
+        "times": [
+            "24:43-25:13"
+        ]
+    },
+    {
+        "id": 13,
+        "vid": [
+            "S01E01",
+            "S01E02",
+            "S01E03",
+            "S01E04"
+        ],
+        "question": "What is the name of Ross's ex-wife?",
+        "choices": [
+            "Susan",
+            "Carol",
+            "Emily",
+            "Janice"
+        ],
+        "GT": "Carol",
+        "option": "B",
+        "topic": "C",
+        "gemini_check": [
+            "True",
+            "Carol"
+        ],
+        "claude_check": [
+            "True",
+            "Carol"
+        ],
+        "attribution": "perception",
+        "characters": [
+            "Ross",
+            "Carol"
+        ],
+        "locations": [
+            "Central Perk"
+        ],
+        "times": [
+            "02:13-02:18"
+        ]
+    },
+    {
+        "id": 14,
+        "vid": [
+            "S01E01",
+            "S01E02",
+            "S01E03",
+            "S01E04"
+        ],
+        "question": "Where do Monica and Paul go on their first date?",
+        "choices": [
+            "A museum",
+            "A restaurant",
+            "Central Perk",
+            "A movie theater"
+        ],
+        "GT": "A restaurant",
+        "option": "B",
+        "topic": "L",
+        "gemini_check": [
+            "True",
+            "A restaurant"
+        ],
+        "claude_check": [
+            "True",
+            "A restaurant"
+        ],
+        "attribution": "perception",
+        "characters": [
+            "Monica",
+            "Paul"
+        ],
+        "locations": [
+            "A Restaurant"
+        ],
+        "times": [
+            "10:24-10:52"
+        ]
+    }
+]

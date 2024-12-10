@@ -1,0 +1,1 @@
+python generator.py --google_api_key "Replace with your gemini api key" --num_workers 1  --worker 0  --begin 0  --end 250 

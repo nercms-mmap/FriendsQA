@@ -1,0 +1,52 @@
+For C (Only about character, action and location should not appear in question and choices list): 
+- Perception: 
+  - Which two characters are shown to be brother and sister? (related_times: ['03:29-03:33', '19:03-19:05', ['57:29-57:31']])
+  - In these episode, which two characters fall in love with each other? (related_times: ['00:49-22:38', '22:40-67:59', '68:01-90:36'])
+- Inference
+  - Which two characters are shown to be twins or brother and sister? (related_times: ['00:49-22:38', '22:40-67:59', '68:01-90:36'])
+  - Who appears to be the most pragmatic and realistic in their approach to life? (related_times: ['00:49-00:52', '01:08-01:14', '06:34-06:36', '06:53-06:58', '18:48-19:08', '27:08-27:11', '31:42-31:45', '51:44-51:57', '61:21-62:09', '76:32-77:06', '79:37-79:46'])
+For A (Only about action, accurate name of character and location should not appear in question and choices list):
+- Perception:  
+  - What recurring action do the characters perform whenever someone enters their apartment? (related_times: ['00:49-22:38', '22:40-67:59', '68:01-90:36'])
+  - What action does the character perform as a symbolic gesture of leaving her old life of depending on her father? (related_times: ['00:49-22:38', '22:40-67:59', '68:01-90:36'])
+- Inference:
+  - How do the characters' reactions to receiving unexpected gifts reveal their values and beliefs? (related_times: ['50:23-53:48', '64:10-64:22', '72:02-73:05'])
+  - How does the recurring action of 'hugging' demonstrate the importance of physical touch and intimacy in their friendships? (related_times: ['03:55-04:07', '67:40-67:48'])
+For L (Only about location, accurate name of character and action should not appear in question and choices list):
+- Perception
+  - How many locations appears in these episodes? (related_times: ['00:00-25:00', '25:00-50:00', '50:00-80:00','80:00-90:00' ])
+  - Which location appear most in these episodes?(related_times: ['00:00-25:00', '25:00-50:00', '50:00-80:00','80:00-90:00' ])
+- Inference
+  - How do the different apartments featured in the episodes reflect the characters' personalities and lifestyles? (related_times: ['01:08-01:14', '05:22-06:31', '09:34-09:51', '11:16-11:29', '20:00-20:04', '27:02-27:57', '47:34-48:49', '63:19-63:56', '76:32-77:06', '78:38-80:12', '89:25-89:55'])
+  - How does the setting of Central Perk contribute to the overall tone and atmosphere of the episodes? (related_times: ['00:49-00:59', '17:31-17:54', '22:40-23:48', '45:24-46:39', '51:16-52:17', '56:12-57:19', '62:09-63:14', '68:01-68:55', '69:48-70:59'])
+For CA(Only about character and action,accurate name of location should not appear in question and choices list):
+- Perception:
+  - What action does Ross repeatedly perform as he reminisces about his relationship with Carol? (related_times: ['08:42-09:13', '11:16-11:29', '24:43-26:23', '30:01-30:15', '33:16-33:54', '37:13-43:48', '74:24-75:29', '85:12-86:33'])
+  - Which character is the most likely to use humor as a defense mechanism? (related_times: ['00:58-01:00', '01:14-01:16', '03:00-03:02', '05:42-05:44', '23:18-23:26', '27:48-27:50', '35:02-35:04', '46:09-46:14', '51:21-51:23', '59:46-60:08', '71:03-71:05', '88:01-88:13'])
+- Inference
+    - Based on their interactions, which character seems to be the most empathetic and understanding of others' feelings? (['01:02-01:08', '02:22-02:29', '06:59-07:17', '19:00-19:20', '45:24-46:04', '50:14-51:05', '57:16-58:02', '64:10-64:22', '70:07-70:31', '78:49-79:26', '83:11-83:18'])
+  - Why does Monica keep her relationship with Alan a secret from her friends for so long?
+  - How does the act of 'smoking' function as a symbol of Chandler's internal struggles and coping mechanisms? (related_times: ['23:18-23:31', '48:11-48:41', '51:05-51:23', '52:52-53:25', '58:01-59:43', '62:09-63:14', '67:46-67:59'])
+For CL(Only about character and location, action should not appear in question and choices list):
+- Perception:
+  - Which character is shown his/her work throughout all episodes?  (related_times: ['16:58-17:27', '23:18-23:26', '27:48-27:50', '52:20-62:09'])
+  - In which locations does Ross reveal his past with Carol?  (related_times: ['16:58-17:27', '52:20-52:50', '61:21-62:09'])
+- Inference
+  - How does the contrast between Monica and Rachel's apartment and Ross's apartment reflect their differing emotional states? (related_times: ['05:22-06:31', '09:34-09:51', '11:16-11:29', '20:00-20:04', '27:02-27:57', '47:34-48:49', '63:19-63:56', '76:32-77:06', '78:38-80:12', '89:25-89:55'])
+  - How does the setting of Monica and Rachel's apartment reflect the evolving dynamics of their friendship? (related_times: ['05:22-06:31', '08:08-08:10', '20:07-20:22', '27:58-29:34', '43:59-44:59', '63:19-63:56', '76:32-78:03', '78:38-80:12', '81:50-83:55', '89:25-90:36'])
+For AL(Only about action and location, accurate name of character should not appear in question and choices list):
+- Perception:
+  - In which location do the characters often gather to watch television? (related_times: ['05:22-07:59', '26:30-28:33', '63:19-65:56', '78:38-80:12', '89:25-90:36'])
+  - What action is repeatedly performed by different characters in both Monica's apartment and Central Perk? (related_times: ['05:22-07:59', '08:08-08:10', '20:07-20:22', '27:58-29:34'])
+- Inference
+  - How does the location of Chandler's office contribute to the portrayal of his professional life and personal struggles? (related_times: ['15:20-15:28', '58:01-59:04', '56:12-57:19', '62:09-63:14', '68:01-68:55', '72:02-73:27'])
+  - At which location do the characters frequently discuss their romantic relationships and drinking coffee? (related_times: ['00:49-05:07', '22:40-23:48', '45:24-46:39', '68:01-73:21'])
+For CAL(character, action and location should be in question and choices list):
+- Perception
+  - Who is shown working at Central Perk after giving up their credit cards? (related_times: ['18:48-19:50', '22:10-22:34', '45:24-46:39', '49:34-50:11', '52:52-53:55', '56:12-57:19', '62:09-63:14', '68:01-68:55', '72:02-73:27'])
+  - At which locations does Chandler smoke a cigarette? (related_times: ['18:48-19:50', '22:10-22:34', '45:24-46:39', '49:34-50:11', '52:52-53:55', '56:12-57:19', '62:09-63:14', '68:01-68:55', '72:02-73:27'])
+- Inference
+  - Which character works in a restaurant but dreams of having their own restaurant? (related_times: ['16:58-17:27', '31:33-31:36'])
+  - Why is Monica's apartment the primary location for the group's emotional discussions and support? (related_times: ['01:19-01:21', '26:30-26:34', '76:32-76:34'])
+
+Examples are for reference only, Please generate in the form of reference examples. The specific content of the generated questions should be based on the actual situation of the scripts. In addition, as you can see in related_times of Example, most questions are cover long range of multiple episodes\n\n, so you also should generate questions like these and these example can not be used any more.

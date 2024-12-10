@@ -1,0 +1,1846 @@
+S01E01-S01E04
+System: You are an expert in long story video comprehension and now need to put your students to the test by coming up with a series of questions for them to answer.Question for story video comprehension is divided into 2 attributions, 7 topics.Attributions: 'perception', 'inference'.
+Description: For questions of 'perception', it can be obtained from the appearance of the video directly, while questions of 'inference' need to analyze the content of the video and logical reasoning to get the results. Therefore, you need to focus on a more long-term understanding of the scripts, such as cross scene, even cross the whole script, generate less question about short-term understanding.
+Topics: 'C', 'A', 'L', 'CA', 'CL', 'AL', 'CAL'
+Description: We focuses on three core elements of the video: character, action, and location, where C stands for character, A stands for action, and L stands for location. Therefore, there are 7 possible topics, i.e., 'C', 'A', 'L', 'CA', 'CL', 'AL', 'CAL'. It should be attention that there should be only core elements in questions of topic. For example, 'C' can only involve 'character', not anything about 'action' or 'location'. You can only generate question about 'character'.
+
+In order to better validate the question, Please generate the basis of inference, a list of the start and end times of the relevant clips of the video(The span between start and end should be at least 30 seconds because short period contains too less information.) and a list of the relevant characters related to question.
+
+Please note that the video information contains the boundingbox, character, and line and line timestamps. The list of boundingboxes represents the top-left and bottom-right coordinate points, i.e. [top-left x, top-left y, bottom-right x,bottom-right y], and the time span of each boundingbox information is all the lines from the current boundingbox to the next one. If the attribute of a boundingbox is none, then please ignore this information and do not generate questions for this boundingbox. And the frame size is 1920*1080. video information are as follow:
+Location:  Central Perk
+Central Perk, Chandler, Joey, Phoebe, and Monica are there.
+(00:49-00:52) Monica: There's nothing to tell. It's just some guy I work with.
+(00:52-00:55) Joey: Come on. You're going out with a guy.
+(00:55-00:57) Joey: There's gotta be something wrong with him.
+(00:58-00:59) Chandler: So does he have a hump and a hair piece?
+(01:02-01:04) Phoebe: Wait. Does he eat chalk?
+They all stare, bemused.
+(01:05-01:08) Phoebe: I don't want her to go through what I went through with Carl. Oh.
+(01:08-01:11) Monica: Okay, everybody relax. This is not even a date.
+(01:11-01:14) Monica: It's just two people going out to dinner and not having sex.
+(01:14-01:16) Chandler: Sounds like a date to me.
+[Time Lapse
+(01:19-01:21) Chandler: I'm back in high school, in the middle of the cafeteria...
+(01:22-01:25) Chandler: ...and I realize I'm totally naked.
+(01:25-01:27) Joey,Phoebe,Rachel,Waitress,Ross,Chandler,Monica: Oh, yeah. I've had that dream.
+(01:27-01:31) Chandler: Then I look down and I realize there is a phone...
+(01:32-01:34) Chandler: ...there.
+(01:34-01:36) Joey: Instead of…
+(01:34-01:36) Chandler: That's right!
+(01:37-01:38) Joey: That one, I've never had.
+(01:37-01:38) Phoebe: No.
+(01:38-01:42) Chandler: All of a sudden, the phone starts to ring.
+(01:43-01:44) Chandler: And it turns out it's my mother.And they weren't looking at you before?!
+(01:46-01:50) Chandler: Which is very, very weird because she never calls me.
+Ross has entered.
+(01:55-01:57) Ross: Hi.
+(01:58-02:01) Joey: This guy says "hello," I wanna kill myself.
+(02:02-02:03) Monica: Are you okay, sweetie?
+(02:03-02:05) Ross: I feel like someone reached my throat,
+(02:05-02:08) Ross: grabbed my small intestine, pulled it out of my mouth...
+(02:08-02:11) Ross: ...and tied it around my neck.
+(02:08-02:11) Chandler: Cookie?
+(02:13-02:14) Monica: Carol moved her stuff out today.
+(02:16-02:18) Monica: Let me get you some coffee.Ohh.
+(02:16-02:18) Ross: Thanks.
+(02:22-02:26) Ross: No. No, don't! Stop cleansing my aura.Ooh! Oh!
+(02:27-02:29) Ross: Just leave my aura alone, okay?
+(02:31-02:34) Ross: I'll be fine. All right? Really. I hope she'll be very happy.Fine!  Be murky!
+(02:34-02:36) Monica: No, you don't.
+(02:34-02:36) Ross: No, I don't.
+(02:36-02:38) Ross: To hell with her. She left me!
+(02:39-02:41) Joey: And you never knew she was a lesbian.
+(02:45-02:47) Ross: No! Okay?
+(02:47-02:50) Ross: Why does everyone keep fixating on that?
+(02:51-02:54) Ross: She didn't know. How should I know?
+(02:56-02:59) Chandler: Sometimes I wish I was a lesbian.
+(03:00-03:02) Chandler: Did I say that out loud?
+(03:04-03:08) Joey: All right, Ross. Look, you're feeling a lot of pain right now.I told mom and dad last night, they seemed to take it pretty well.Oh really, so that hysterical phone call I got from a woman at sobbing 300 A.M., "I'll never have grandchildren, I'll never have grandchildren." was what?  A wrong number?Sorry.
+(03:09-03:11) Joey: You're angry. You're hurting.
+(03:11-03:13) Joey: Can I tell you what the answer is?
+Ross gestures his consent.
+(03:14-03:15) Joey: Strip joints!
+(03:17-03:19) Joey: Come on, you're single. Have some hormones.
+(03:20-03:22) Ross: See, but I don't want to be single, okay?
+(03:22-03:25) Ross: I just wanna be married again.
+Rachel enters in a wet wedding dress and starts to search the room.
+(03:29-03:33) Chandler: And I just want a million dollars!
+(03:34-03:35) Monica: Rachel?
+(03:35-03:38) Rachel: Oh, God, Monica! Hi! Thank God!
+(03:38-03:41) Rachel: I went to your building and this guy with a hammer said...
+(03:41-03:43) Rachel: ...that you might be here, and you are.
+(03:44-03:47) Waitress: Can I get you some coffee?
+(03:44-03:47) Monica: Decaf.
+(03:48-03:52) Monica: Okay, everybody, this is Rachel, another Lincoln High survivor.
+(03:52-03:54) Monica: This is everybody. This is Chandler and Phoebe...
+(03:55-03:57) Monica: ...and Joey. And remember my brother, Ross?
+(03:57-03:58) Rachel: Sure!
+(03:57-03:58) Ross: Hey.
+They go to hug but Ross's umbrella opens.  He sits back down defeated again.  A moment of silence follows as Rachel sits and the others expect her to explain.
+(04:08-04:09) Monica: So you wanna tell us now,
+(04:09-04:12) Monica: or are we waiting for four wet bridesmaids?
+(04:14-04:19) Rachel: Oh, God! Well, it started about a half-hour before the wedding.
+(04:19-04:21) Rachel: I was in this room with all the presents...
+(04:22-04:23) Rachel: ...and I was looking at this gravy boat.
+(04:24-04:27) Rachel: This really gorgeous Limoges gravy boat.
+(04:27-04:29) Rachel: When all of a sudden... Sweet 'N Low?
+(04:29-04:31) Rachel: I realized...
+(04:32-04:35) Rachel: ...I was more turned on by this gravy boat than by Barry.
+(04:36-04:39) Rachel: Then I got really freaked out, and that's when it hit me:
+(04:39-04:42) Rachel: How much Barry looks like Mr. Potato Head.
+(04:42-04:45) Rachel: You know, I mean, I always knew he looked familiar, but...
+(04:47-04:51) Rachel: Anyway, I just had to get out of there, and I started wondering:
+(04:51-04:55) Rachel: Why am I doing this? And "Who am I doing this for?"
+(04:55-04:59) Rachel: Anyway, I just didn't know where to go, and I know you and I have drifted apart...
+(04:59-05:02) Rachel: ...but you're the only person I know in the city.
+(05:02-05:04) Monica: Who wasn't invited to the wedding.
+(05:04-05:07) Rachel: Oh, I was kind of hoping that wouldn't be an issue.
+Location:  Monica's Apartment
+Monica's Apartment, everyone is there and watching a Spanish Soap on TV and are trying to figure out what is going on.
+(05:22-05:24) Monica: I'm guessing he bought her the big pipe organ...
+(05:24-05:27) Monica: ...and she's really not happy about it.
+(05:28-05:31) Rachel: Daddy, I just... I can't marry him.Tuna or egg salad?  Decide!I'll have whatever Christine is having.
+(05:31-05:33) Rachel: I'm sorry.
+(05:33-05:36) Rachel: I just don't love him.
+(05:36-05:39) Rachel: Well, it matters to me.
+The scene on TV has changed to show two women, one is holding her hair.
+(05:42-05:44) Chandler: She should not be wearing those pants.If I let go of my hair, my head will fall off.
+(05:45-05:47) Joey: I say push her down the stairs.
+(05:47-05:50) Phoebe, Ross, Chandler, and Joey: Push her down the stairs! Push her down the stairs!
+She is pushed down the stairs and everyone cheers.
+(05:55-05:57) Rachel: Come on, Daddy, listen to me!
+(05:57-06:01) Rachel: It's like all of my life, everyone's always told me, "You're a shoe!
+(06:02-06:04) Rachel: You're a shoe! You're a shoe! You're a shoe!"
+(06:04-06:07) Rachel: Then today I stopped and said, "What if I don't wanna be a shoe?
+(06:07-06:10) Rachel: What if I wanna be a purse? You know?
+(06:11-06:12) Rachel: Or a hat?"
+(06:13-06:16) Rachel: I don't want you to buy me a hat, I am a hat.
+(06:16-06:18) Rachel: It's a metaphor, Daddy!
+(06:20-06:22) Ross: You can see where he'd have trouble.
+(06:25-06:27) Rachel: Look, Daddy, it's my life.
+(06:28-06:31) Rachel: Well, maybe I'll just stay here with Monica.
+(06:34-06:36) Monica: I guess we've established she's staying with Monica.
+(06:38-06:41) Rachel: Well, maybe that's my decision.
+(06:42-06:44) Rachel: Well, maybe I don't need your money.
+(06:44-06:46) Rachel: Wait! Wait! I said maybe!
+Rachel is breating into a paper bag.
+(06:53-06:56) Monica: Okay. Just breathe, that's it.
+(06:56-06:58) Monica: Just try to think of nice, calm things.
+(06:59-07:02) Phoebe: Raindrops on roses And whiskers on kittens
+(07:03-07:07) Phoebe: Doorbells and sleigh bells And something with mittens
+(07:07-07:11) Phoebe: La la la something With string
+(07:11-07:13) Rachel: I'm all better now.
+(07:15-07:17) Phoebe: I helped.
+(07:18-07:21) Monica: Look, this is probably for the best, you know?
+(07:21-07:24) Monica: Independence. Taking control of your life.
+(07:24-07:28) Joey: And, hey, if you need anything, you can always come to Joey.
+(07:28-07:32) Joey: Me and Chandler live right across the hall. And he's away a lot.
+(07:34-07:36) Monica: Joey, stop hitting on her. It's her wedding day.
+(07:36-07:39) Joey: What? Like there's a rule or something?
+The door buzzer sounds and Chandler gets it.
+(07:41-07:44) Chandler: Please don't do that again. It's a horrible sound.
+(07:45-07:47) Paul: Uh, it's Paul.
+(07:45-07:47) Monica: Buzz him in.
+(07:47-07:50) Joey: Who's Paul?
+(07:47-07:50) Ross: Paul, the wine guy, Paul?
+(07:50-07:51) Monica: Maybe.
+(07:51-07:54) Monica: Wait a minute. Your "not a real date" is with Paul, the wine guy?
+(07:55-07:56) Ross: He finally asked you out?
+(07:55-07:56) Monica: Yes.
+(07:56-07:59) Chandler: Ooh. This is a "Dear Diary" moment.
+(08:00-08:01) Monica: Rach, wait, I can cancel.
+(08:02-08:03) Rachel: Please, no. Go, I'll be fine.
+(08:04-08:07) Monica: Ross, are you okay? I mean, do you want me to stay?
+(08:08-08:10) Ross: That'd be good.
+(08:11-08:14) Monica: Really?
+(08:11-08:14) Ross: No, go on! It's Paul, the wine guy.
+There's a knock on the door and it's Paul.
+(08:18-08:21) Monica: Hi, come in. Paul, this is...What does that mean?   Does he sell it, drink it, or just complain a lot?
+(08:22-08:24) Monica: ...everybody. Everybody, this is Paul.
+(08:25-08:26) Joey,Phoebe,Rachel,Paul,Phoebe, Ross, Chandler, and Joey,Ross,Chandler,Monica: Paul, the wine guy.
+(08:26-08:30) Joey,Phoebe,Rachel,Paul,Phoebe, Ross, Chandler, and Joey,Ross,Chandler,Monica: Wine guy.
+(08:26-08:30) Chandler: I didn't catch your name. Paul, was it?
+(08:30-08:33) Monica: Okay. Sit down. Two seconds.Okay, umm-umm, I'll just--I'll be right back, I just gotta go ah, go ah...A wandering?
+(08:37-08:40) Phoebe: Ooh, I just pulled out four eyelashes. That can't be good.
+Monica goes to change.
+(08:42-08:44) Ross: So, Rachel, what are you up to tonight?Hey, Paul!Yeah?Here's a little tip, she really likes it when you rub her neck in the same spot over and over and over again until it starts to get a little red.Shut up, Joey!
+(08:45-08:49) Rachel: Well, I was supposed to be headed for Aruba on my honeymoon...
+(08:49-08:50) Rachel: ...so, nothing.
+(08:52-08:54) Ross: Right. You're not even getting your honeymoon.
+(08:55-08:59) Ross: God. No, no. Although, Aruba. Heh. This time of year? Eh.
+(08:59-09:01) Ross: Talk about your...
+(09:02-09:03) Ross: ...big lizards.
+(09:07-09:10) Ross: Anyway, if you don't feel like being alone tonight...
+(09:10-09:13) Ross: ...Joey and Chandler are helping me with my furniture.
+(09:13-09:17) Chandler: Yes, and we're very excited about it.
+(09:17-09:20) Rachel: Actually, thanks, but I'm just gonna hang out here tonight.
+(09:20-09:22) Rachel: It's been a long day.
+(09:20-09:22) Ross: Oh, sure. Okay. Sure.
+(09:22-09:24) Joey: Hey, Pheebs, you wanna help?
+(09:24-09:27) Phoebe: Oh, I wish I could, but I don't want to.
+Location:  Ross's Apartment
+The Subway, Phoebe is singing for change.
+Ross's Apartment, the guys are there assembling furniture.
+(09:34-09:39) Ross: I'm supposed to attach a brackety thing to the side things...Love is sweet as summer showers, love is a wondrous work of art, but your love oh your love, your love...is like a giant pigeon...crapping on my heart.  La-la-la-la-la-  Thank you. La-la-la-la...ohhh!
+(09:39-09:42) Ross: ...using a bunch of these little worm guys.
+(09:43-09:48) Ross: I have no brackety thing, I see no worm guys whatsoever...
+(09:48-09:51) Ross: ...and I cannot feel my legs.
+Joey and Chandler are finishing assembling the bookcase.
+(09:53-09:54) Joey: What's this?I'm thinking we've got a bookcase here.It's a beautiful thing.
+(09:54-09:57) Chandler: I have no idea.I would have to say that is an 'L'-shaped bracket.Which goes where?
+Joey checks that Ross is not looking and dumps it in a plant.
+(09:59-10:01) Joey: Done with the bookcase.
+(09:59-10:01) Chandler: All finished.
+(10:05-10:06) Ross: This was Carol's favorite beer.
+(10:09-10:11) Ross: She always drank it out of the can. I should have known.
+(10:11-10:15) Joey: Hey. Ross, let me ask you a question.Hey-hey-hey-hey, if you're gonna start with that stuff we're outta here.Yes, please don't spoil all this fun.
+(10:15-10:19) Joey: She got the furniture, the stereo, the good TV.
+(10:19-10:20) Joey: What did you get?
+(10:20-10:22) Ross: You guys.
+(10:22-10:24) Chandler: Oh, God. Oh, my God.
+(10:22-10:24) Joey: you got screwed.
+Location:  A Restaurant
+A Restaurant, Monica and Paul are eating.
+(10:24-10:28) Monica: Oh, my God.Oh my God!
+(10:24-10:28) Paul: I know, I know. I'm such an idiot.
+(10:29-10:33) Paul: I should've caught on when she went to the dentist four and five times a week.
+(10:34-10:36) Paul: I mean, how clean can teeth get?
+(10:36-10:38) Monica: My brother's going through that. He's such a mess.
+(10:39-10:40) Monica: How did you get through it?
+(10:40-10:44) Paul: He might try accidentally breaking something valuable of hers.
+(10:44-10:46) Paul: Say her…
+(10:44-10:46) Monica: Leg?
+(10:46-10:48) Paul: Heh. That's one way of going through it, yeah.
+(10:48-10:50) Paul: Me, I went for the watch.
+(10:50-10:52) Monica: you actually broke her watch?
+Location: Monica's Apartment
+Monica's Apartment, Rachel is talking on the phone and pacing.
+(10:53-10:56) Rachel: Barry, I'm sorry. I am so sorry.Ooh, steer clear of you.That's right.
+(10:56-10:58) Rachel: I know you probably think it's about what I said
+(10:58-11:01) Rachel: that you making love with your socks on, but it isn't.
+(11:01-11:04) Rachel: It isn't, it's about me. And I...
+(11:11-11:14) Rachel: Hi. Machine cut me off again. Anyway...
+Location: Ross's Apartment
+Ross's Apartment; Ross is pacing while Joey and Chandler are working on some more furniture.
+(11:16-11:17) Ross: You know what's scary?I'm divorced!  I'm only 26 and I'm divorced!Shut up!You must stop!That only took me an hour.Look, Ross, you gotta understand, between us we haven't had a relationship that has lasted longer than a Mento.   You, however have had the love of a woman for four years.   Four years of closeness and sharing at the end of which she ripped your heart out, and that is why we don't do it!  I don't think that was my point!
+(11:17-11:20) Ross: What if there's only one woman for everybody?
+(11:20-11:24) Ross: I mean, what if you get one woman, and that's it?
+(11:24-11:29) Ross: Unfortunately, in my case, there was only one woman for her.
+(11:29-11:32) Joey: What are you talking about? One woman.
+(11:33-11:37) Joey: That's like saying there's only one flavor of ice cream for you.
+(11:37-11:40) Joey: Let me tell you something, Ross. There's lots of flavors out there.
+(11:41-11:45) Joey: There's rocky road and cookie dough and bing cherry vanilla.
+(11:46-11:50) Joey: You can get them with jimmies or nuts or whipped cream.
+(11:50-11:53) Joey: This is the best thing that ever happened to you.
+(11:53-11:56) Joey: You got married. You were like, what, eight?
+(11:58-12:02) Joey: Welcome back to the world. Grab a spoon.
+(12:02-12:05) Ross: I honestly don't know if I'm hungry or horny.
+(12:05-12:07) Joey: Then stay out of my freezer.
+Location:  A Restaurant
+A Restaurant, Monica and Paul are still eating.
+(12:10-12:14) Paul: Ever since she walked out on me, I...
+(12:14-12:16) Monica: What? What?
+(12:16-12:18) Monica: You wanna spell it out with noodles?
+(12:18-12:22) Paul: No, it's more of a fifth date kind of revelation.
+(12:23-12:26) Monica: Oh, so there's gonna be a fifth date?
+(12:27-12:29) Paul: Isn't there?
+(12:29-12:31) Monica: Yeah, yeah. I think there is.
+(12:33-12:35) Monica: What were you gonna say?
+(12:37-12:39) Paul: Well... Er, uh...
+(12:40-12:42) Paul: Ever since she left me, um...
+(12:43-12:46) Paul: ...I haven't been able to perform...
+(12:47-12:48) Paul: ...sexually.
+(12:51-12:52) Monica: Oh, God! Oh, God! I am so...
+(12:53-12:54) Monica: I'm so sorry.
+(12:53-12:54) Paul: It's okay.
+(12:54-12:57) Monica: Being spit on is probably not what you need right now.
+(13:00-13:01) Monica: How long?
+(13:01-13:02) Paul: Two years.
+(13:05-13:08) Monica: I'm glad you smashed her watch.
+(13:10-13:14) Paul: So you still think you might want that fifth date?
+(13:16-13:18) Monica: Yeah.
+(13:18-13:20) Monica: Yeah, I do.
+Location:  Monica's Apartment
+Monica's Apartment, Rachel is watching Joanne Loves Chaci.
+Priest on TV: We are gathered here today to join Joanne Louise Cunningham and Charles, Chachi-Chachi-Chachi, Arcola in the bound of holy matrimony.
+(13:25-13:28) Rachel: Oh!See.
+(13:28-13:33) Rachel: But Joanie loved Chachi. That's the difference.
+Location:  Ross's Apartment
+Ross's Apartment, they're all sitting around and talking.
+(13:35-13:36) Ross: Grab a spoon.
+(13:37-13:39) Ross: Do you know long it's been since I grabbed a spoon?
+(13:40-13:42) Ross: Do the words, "Billy, don't be a hero," mean anything to you?
+(13:45-13:49) Ross: You know, here's the thing. Even if I could get it together enough...Great story!  But, I uh, I gotta go, I got a date with Andrea--Angela--Andrea...  Oh manAngela's the screamer, Andrea has cats.Right.  Thanks.  It's June.  I'm outta here.
+(13:49-13:52) Ross: ...to ask a woman out...
+(13:52-13:55) Ross: ...who am I gonna ask?
+Location:  Monica's Apartment
+Monica's Apartment, Rachel is making coffee for Joey and Chandler.
+(14:16-14:17) Rachel: Isn't this amazing?
+(14:18-14:20) Rachel: I mean, I have never made coffee before in my life.
+(14:20-14:23) Chandler: That is amazing.
+(14:20-14:23) Joey: Congratulations.
+(14:23-14:28) Joey: While you're on a roll, if you feel like you gotta make a Western omelet or something...Y'know, I figure if I can make coffee, there isn't anything I can't do.If can invade Poland, there isn't anything I can't do.
+(14:30-14:34) Joey: Although, actually I'm really not that hungry this morning.
+(14:35-14:36) Joey,Rachel,Paul,Chandler,Monica: Good morning.Oh good, Lenny and Squigy are here.
+(14:36-14:38) Paul: morning.
+(14:39-14:41) Joey: Morning, Paul.
+(14:41-14:44) Rachel: Hello, Paul.
+(14:41-14:44) Chandler: Hi. Paul, is it?
+Monica and Paul walk to the door and talk in a low voice so the others can't hear.  The others move Monica's table closer to the door so that they can.
+(14:49-14:51) Paul: I had a really great time last night.Thank you!  Thank you so much!Stop!
+(14:52-14:53) Paul: Thank you. Thank you so much.
+(14:54-14:57) Monica: We'll talk later, okay?
+(14:54-14:57) Monica: Yeah.
+(15:02-15:03) Paul: Thank you.
+(15:09-15:12) Joey: That wasn't a real date.
+(15:13-15:16) Joey: What the hell do you do on a real date?
+(15:17-15:20) Monica: Shut up and put my table back.
+(15:17-15:20) Joey,Rachel,Paul,Chandler,Monica: Okay.
+(15:20-15:22) Chandler: All right, kids, I gotta get to work.
+(15:22-15:28) Chandler: If I don't input those numbers, it doesn't make much of a difference.
+(15:31-15:33) Rachel: So, like, you guys all have jobs?
+(15:34-15:35) Monica: Yeah, we all have jobs.
+(15:36-15:38) Monica: See, that's how we buy stuff.
+(15:40-15:41) Joey: Yeah, I'm an actor.
+(15:41-15:44) Rachel: Wow. Would I have seen you in anything?
+(15:44-15:46) Joey: Oh, I doubt it. Mostly regional work.
+(15:46-15:50) Monica: Unless you happened to catch the Wee One's production of Pinocchio.
+(15:50-15:53) Chandler: Look, Geppeto. I'm a real live boy.Look, it was a job all right?
+(15:56-15:57) Joey: I will not take this abuse.
+(15:57-15:59) Chandler: You're right. I'm sorry.
+(16:00-16:03) Chandler: Once I was a wooden boy A little wooden boy
+(16:07-16:09) Monica: So how are you doing today? Did you sleep okay?You should both know, that he's a dead man.  Oh, Chandler?
+(16:09-16:13) Monica: Did you talk to Barry? I can't stop smiling.
+(16:13-16:17) Rachel: I can see that. You look like you slept with a hanger in your mouth.
+(16:22-16:26) Monica: I know. He's just so...
+(16:26-16:28) Monica: Remember you and Tony De Marco?
+(16:28-16:32) Rachel: Oh, yeah.
+(16:28-16:32) Monica: Well, it's like that. With feelings.
+(16:33-16:35) Rachel: Oh, wow, are you in trouble!
+(16:35-16:39) Monica: Okay, okay. I am just going to get up, go to work...Big time!Want a wedding dress?   Hardly used.
+(16:39-16:42) Monica: ...and not think about him all day.
+(16:42-16:45) Monica: Or else I'm just gonna get up and go to work.
+(16:45-16:47) Rachel: Oh, wish me luck!
+(16:45-16:47) Monica: What for?
+(16:47-16:50) Rachel: I'm gonna go get one of those job things.
+Location:  Iridium
+Monica exits.
+Iridium, Monica is working as Frannie enters.
+(16:58-17:01) Frannie: Hey, Monica.
+(16:58-17:01) Monica: Hey, Franny. Welcome back.
+(17:01-17:02) Monica: How was Florida?
+(17:03-17:04) Frannie: You had sex, didn't you?
+(17:06-17:07) Monica: How do you do that?
+(17:08-17:12) Frannie: So, who?
+(17:08-17:12) Monica: you know Paul?
+(17:12-17:14) Frannie: Paul, the wine guy?
+(17:14-17:16) Frannie: Oh, yeah, I know Paul.
+(17:18-17:21) Monica: You mean, you know Paul like I know Paul?
+(17:21-17:23) Frannie: Are you kidding? I take credit for Paul.
+(17:23-17:27) Frannie: Before me, there was no snap in his turtle for two years.
+Location:  Central Perk
+Central Perk, everyone but Rachel is there.
+(17:31-17:33) Joey: Of course it was a lie.
+(17:34-17:36) Monica: Why? Why would anybody do something like that?
+(17:37-17:40) Ross: We're looking for an answer more sophisticated than:
+(17:40-17:42) Ross: To get you into bed.
+(17:43-17:45) Monica: Is it me?I hate men!  I hate men!Oh no, don't hate, you don't want to put that out into the universe.
+(17:45-17:48) Monica: Is it like I have some sort of beacon that only dogs...
+(17:48-17:51) Monica: ...and men with severe emotional problems can hear?
+(17:51-17:54) Phoebe: All right, come here. Give me your feet.
+(18:01-18:02) Monica: I just thought he was nice, you know?
+(18:05-18:08) Joey: I can't believe you didn't know it was a lie.
+Monica pushes him off of the sofa as Rachel enters with a shopping bag.
+(18:13-18:14) Rachel: Guess what.
+(18:14-18:16) Ross: you got a job?
+(18:14-18:16) Rachel: Are you kidding?
+(18:16-18:18) Rachel: I'm trained for nothing.
+(18:19-18:21) Rachel: I was laughed out of 12 interviews today.
+(18:22-18:23) Chandler: Yet you're surprisingly upbeat.
+(18:23-18:27) Rachel: Well, you would be too if you found Joan and David boots on sale...
+(18:27-18:29) Rachel: …fifty percent off.
+(18:29-18:31) Chandler: Oh, how well you know me.
+(18:32-18:35) Rachel: They're my new "I don't need a job or my parents.
+(18:35-18:37) Rachel: I've got great boots" boots.
+(18:39-18:41) Monica: How'd you pay for them?
+(18:39-18:41) Rachel: Uh, credit card.
+(18:41-18:43) Monica: And who pays for that?
+(18:44-18:46) Rachel: Um, my father.
+Location:  Monica and Rachel's
+Monica and Rachel's, everyone is sitting around the kitchen table.   Rachel's credit cards are spread out on the table along with a pair of scissors.
+(18:48-18:51) Monica: You can't live off your parents your whole life.Oh God, come on you guys, is this really necessary?  I mean, I can stop charging anytime I want.
+(18:51-18:54) Rachel: I know that. That's why I was getting married.
+(18:55-18:58) Phoebe: Give her a break. It's hard being on your own for the first time.
+(18:58-19:00) Rachel: Thank you.
+(18:58-19:00) Phoebe: You're welcome.
+(19:00-19:02) Phoebe: I remember when I first came to this city, I was 14.
+(19:03-19:05) Phoebe: My mom had killed herself and my stepdad was back in prison.
+(19:06-19:08) Phoebe: And I got here, and I didn't know anybody.
+(19:08-19:11) Phoebe: I ended up living with this albino guy who was cleaning windshields...
+(19:11-19:15) Phoebe: ...outside Port Authority. And then he killed himself.
+(19:16-19:20) Phoebe: And then I found aromatherapy. So believe me, I know exactly how you feel.
+Pause
+(19:24-19:27) Ross: The word you're looking for is:
+(19:27-19:28) Ross: Anyway...
+(19:33-19:34) Monica: All right. You ready?
+(19:34-19:36) Rachel: I don't think so.No.  No, no, I'm not ready!  How can I be ready?  "Hey, Rach!  You ready to jump out the airplane without your parachute?"  Come on, I can't do this!You can, I know you can!
+(19:34-19:36) Ross: Oh, come on.
+(19:36-19:37) Ross: Cut. Cut.
+(19:38-19:41) Ross: Cut, cut, cut.
+She finishes cutting them up and they all cheer.
+(19:45-19:47) Monica: Welcome to the real world.Cut, cut, cut, cut, cut, cut, cut…Y'know what?  I think we can just leave it at that.  It's kinda like a symbolic gesture...Rachel!  That was a library card!Cut, cut, cut, cut, cut, cut, cut..Y'know, if you listen closely, you can hear a thousand retailers scream.
+(19:47-19:50) Monica: It sucks. You're gonna love it.
+Rachel and Ross are watching a TV channel finishes it's broadcast day by playing the national anthem.
+(19:57-20:00) Monica: Well, that's it. You gonna crash on the couch?
+(20:00-20:04) Ross: No. No, I gotta go home sometime.
+(20:00-20:04) Monica: Are you gonna be okay?
+(20:04-20:05) Ross: Yeah.
+(20:07-20:09) Rachel: Look what I just found on the floor.
+(20:11-20:12) Rachel: What?
+(20:12-20:14) Monica: That's Paul's watch.
+(20:14-20:16) Monica: You can just put it back where you found it.
+(20:18-20:21) Monica: Oh, boy. All right. Good night, everybody.
+(20:21-20:22) Ross and Rachel: Good night.
+Monica stomps on Paul's watch and goes into her room.
+(20:34-20:35) Rachel: Oh, sorry.Mmm. Oh, no-
+(20:34-20:35) Ross: No. Oh, No. Go.
+(20:35-20:37) Rachel: No, have it, really.
+(20:35-20:37) Ross: Split it?
+(20:37-20:39) Rachel: Okay.
+(20:41-20:42) Ross: Thanks.
+(20:43-20:47) Ross: You probably didn't know this, but back in high school I had...
+(20:47-20:49) Ross: ...a major crush on you.
+(20:50-20:51) Rachel: I knew.
+(20:52-20:54) Ross: You did? Oh.
+(20:55-20:58) Ross: I figured you thought I was Monica's geeky older brother.
+(20:58-21:00) Rachel: I did.
+(21:05-21:07) Ross: Listen, do you think...
+(21:07-21:11) Ross: And try not to let my vulnerability become any kind of a factor here.
+(21:13-21:16) Ross: Do you think it would be okay if I ask you out sometime, maybe?
+(21:18-21:20) Rachel: Yeah.
+(21:20-21:21) Rachel: Maybe.
+(21:22-21:24) Ross: Okay.
+(21:29-21:31) Ross: Okay, maybe I will.
+(21:35-21:37) Rachel: Good night.
+(21:35-21:37) Ross: Good night.
+Rachel goes into her room and Monica enters the living room as Ross is leaving.
+(21:51-21:53) Monica: See you.
+(21:54-21:57) Monica: Wait, wait. Hey, what's with you?
+(21:59-22:02) Ross: I just grabbed a spoon.
+Location:  Central Perk
+Central Perk, everyone is there.
+(22:10-22:11) Joey: Can't believe what I'm hearing.
+(22:12-22:13) Phoebe: I can't believe What I'm hearing here
+(22:14-22:16) Monica: What? I said you had a…
+(22:14-22:16) Phoebe: What? I said you had…
+(22:17-22:19) Monica: Would you stop?
+(22:17-22:19) Phoebe: Oh, was I doing it again?
+(22:19-22:21) Joey,Phoebe,Customer,Rachel,Ross,Chandler,Monica: Yes.
+(22:22-22:24) Rachel: Would anybody like more coffee?I said that you had a nice butt, it's just not a great butt.Oh, you wouldn't know a great butt if it came up and bit ya.There's an image.
+(22:26-22:29) Chandler: Did you make it or are you just serving it?
+(22:29-22:32) Rachel: I'm just serving it.
+(22:29-22:32) Joey,Phoebe,Customer,Rachel,Ross,Chandler,Monica: I'll have a cup of coffee.
+(22:33-22:34) Chandler: Kids, new dream.
+(22:35-22:38) Chandler: I'm in Las Vegas. I'm Liza Minnelli.Ahh, miss?   More coffee?Ugh.Excuse me, could you give this to that guy over there?Go ahead.Thank you. Sorry.  Okay, Las Vegas.
+
+One episode end, followed by next episode.
+
+Location:  Central Perk
+Central Perk, everyone's there.
+(22:40-22:42) Monica: What you guys don't understand is...
+(22:42-22:45) Monica: ...for us, kissing is as important as any part of it.
+(22:45-22:47) Joey: Yeah, right.
+(22:49-22:51) Joey: You serious?
+(22:52-22:53) Phoebe: Oh, yeah.
+(22:53-22:55) Rachel: Everything you need to know is in that first kiss.
+(22:55-22:57) Monica: Absolutely.
+(22:55-22:57) Chandler: Yeah, I think, for us...
+(22:57-23:00) Chandler: ...kissing is pretty much like an opening act.
+(23:00-23:02) Chandler: I mean, it's like the stand-up comedian you have to sit through...
+(23:02-23:05) Chandler: ...before Pink Floyd comes out.
+(23:08-23:11) Ross: Yeah, and it's not that we don't like the comedian.
+(23:11-23:15) Ross: It's just that that's not...
+(23:15-23:17) Ross: ...why we bought the ticket.
+(23:18-23:20) Chandler: See, the problem is, though...
+(23:20-23:23) Chandler: ...after the concert's over, no matter how great the show was...
+(23:23-23:26) Chandler: ...you girls are always looking for the comedian again.
+(23:26-23:28) Chandler: I mean, we're in the car, we're fighting traffic...
+(23:29-23:31) Chandler: ...basically just trying to stay awake.
+(23:33-23:36) Rachel: Yeah, well, word of advice: Bring back the comedian.
+(23:37-23:38) Rachel: Otherwise, you're gonna find yourself...
+(23:39-23:41) Rachel: ...sitting at home listening to that album alone.
+(23:46-23:48) Joey: Are we still talking about sex?
+Location:  Museum of Prehistoric History
+Museum of Prehistoric History, Ross and a co-worker are setting up an exhibit which includes some mannequins of cave people.
+(24:43-24:45) Ross: No, it's good. It is good.
+(24:45-24:49) Ross: It's just that, doesn't she seem a little angry?
+(24:49-24:51) Marsha: Well, she has issues.
+(24:52-24:54) Ross: Does she?
+(24:54-24:56) Marsha: He's out banging other women over the head with a club...
+(24:56-25:00) Marsha: ...while she sits at home trying to get the mastodon smell out of the carpet.
+(25:00-25:03) Ross: Marsha, see, these are cave people.
+(25:05-25:07) Ross: Okay, they have issues like:
+(25:07-25:11) Ross: Gee, that glacier's getting kind of close. See?
+(25:11-25:13) Marsha: Speaking of issues, isn't that your ex-wife?
+Carol, Ross's ex-wife, has entered behind them and is standing outstide the exhibit.
+(25:14-25:16) Ross: No, no.
+(25:14-25:16) Marsha: Yes, it is. Carol, hi.
+(25:16-25:18) Ross: Okay. Yes. Yes, it is.
+(25:18-25:21) Ross: How about I'll catch up with you in the Ice Age?
+(25:35-25:37) Marsha: hi.
+(25:35-25:37) Marsha: hi.
+Marsha extis and Ross waves Carol into the exhibit.
+(25:44-25:46) Carol: So...Hi.
+(25:47-25:49) Ross: You look great.
+(25:49-25:51) Ross: I hate that.
+(25:52-25:55) Carol: Sorry. Thanks. You look good too.
+(25:55-25:58) Ross: Well, you know, in here, anyone who...
+(26:00-26:01) Ross: ...stands erect...
+(26:04-26:06) Ross: So, what's new? Still a...
+(26:04-26:06) Carol: A lesbian?
+(26:06-26:08) Ross: Well...
+(26:09-26:10) Ross: You never know.
+(26:11-26:13) Ross: How's, um...? How's the family?
+(26:13-26:15) Carol: Marty's still totally paranoid.
+(26:16-26:19) Carol: Oh, and...
+(26:16-26:19) Ross: Carol, why are you here, Carol?
+(26:20-26:23) Carol: I'm pregnant.
+(26:20-26:23) Carol: Pregnant.
+Location:  Monica and Rachel's
+Monica and Rachel's, Chandler, Joey, Phoebe, and Monica are watching Three's Company.
+(26:30-26:34) Chandler: Oh. Looks like she didn't leave in such a hurry after all.Pregnant?!
+(26:34-26:36) Chandler: I think this is the episode of Three's Company...
+(26:36-26:39) Chandler: ...where's there's some kind of misunderstanding.
+(26:42-26:44) Phoebe: Then I've already seen this one.
+(26:46-26:47) Monica: Are you through with that? Thanks.
+(26:48-26:50) Joey: Yeah, sorry, the swallowing slowed me down.
+(26:52-26:53) Monica: Whose little ball of paper is this?
+(26:54-26:55) Chandler: Oh, that would be mine.
+(26:55-26:57) Chandler: See, I wrote a note to myself, then I didn't need it.
+(26:58-27:00) Chandler: So I balled it up and now I wish I was dead.
+Monica starts to fluff a pillow.
+(27:02-27:05) Phoebe: She already fluffed that pillow. Monica, you know, you already fluffed...
+(27:05-27:07) Phoebe: But it's fine.
+(27:08-27:09) Monica: Look, I'm sorry.
+(27:09-27:11) Monica: I don't want to give them any more ammunition than they have.
+(27:12-27:13) Chandler: Yes, we know how cruel a parent can be...
+(27:14-27:17) Chandler: ...about the flatness of a child's pillow.
+(27:17-27:20) Phoebe: Monica? Hi. Um...
+(27:20-27:23) Phoebe: Monica, um, you're scaring me.
+(27:24-27:28) Phoebe: I mean, you're, like, all chaotic and twirly, you know?
+(27:28-27:29) Phoebe: Not in a good way.
+(27:31-27:32) Joey: Yeah, calm down.
+(27:32-27:37) Joey: You don't see Ross getting all chaotic and twirly every time they come.
+(27:37-27:41) Monica: That's because, as far as my parents are concerned, Ross can do no wrong.
+(27:41-27:43) Monica: You see, he's the prince.
+(27:43-27:47) Monica: Apparently they had some big ceremony before I was born.
+(27:48-27:50) Chandler: Ew, ew, ew.
+(27:50-27:53) Chandler: What?
+(27:50-27:53) Chandler: Ugly Naked Guy got a ThighMaster.What?
+(27:56-27:57) Rachel,Phoebe,Monica,Chandler,Joey,Chandler and Joey,Ross: Ew.
+Rachel enters from her room.
+(27:58-28:01) Rachel: Has anybody seen my engagement ring?
+(27:58-28:01) Phoebe: Yeah, it's beautiful.
+(28:06-28:08) Rachel: Oh, God. Oh, God.
+(28:08-28:08) Rachel: Oh, God, oh, God, oh, God.
+(28:08-28:08) Phoebe: No, don't touch that.
+(28:14-28:18) Rachel: Oh, like I wasn't dreading tomorrow enough having to give it back to him.
+(28:18-28:20) Rachel: Hi, Barry, remember me? I'm the girl…
+(28:20-28:24) Rachel: ...that stomped on your heart in front of your entire family.
+(28:24-28:27) Rachel: Oh, God. Now I'm gonna have to return the ring, without the ring...
+(28:27-28:30) Rachel: ...which makes it so much harder.
+(28:31-28:33) Monica: Easy, Rach, we'll find it. Won't we?
+(28:33-28:35) Monica: Oh, yeah.
+(28:33-28:35) Rachel: Okay, look.
+(28:38-28:39) Joey: When did you have it on last?Oh! Yeah!
+(28:39-28:42) Phoebe: Doy. Probably right before she lost it.
+(28:44-28:47) Chandler: You don't get a lot of "doy" these days.
+(28:48-28:51) Rachel: I know I had it this morning.
+(28:51-28:54) Rachel: I know I had it when I was in the kitchen with...
+(28:55-28:56) Rachel: Dinah?
+(28:59-29:02) Rachel: Oh, don't be mad....Dinah?
+(29:02-29:04) Rachel: You didn't.
+(29:02-29:04) Rachel: Oh, I'm sorry.You didn't.
+(29:05-29:07) Monica: I gave you one job.
+(29:08-29:11) Rachel: Oh, but look how straight those noodles are.
+(29:12-29:16) Chandler: Monica, you know that's not how you look for an engagement ring in a lasagna.
+(29:19-29:20) Monica: I just can't do it.
+(29:21-29:23) Monica: Boys?
+(29:24-29:25) Chandler: We're going in.
+(29:34-29:35) Chandler: Hi.
+Chandler, Joey, and Phoebe start to pick through the lasagne as there's a knock on the door which Monica answers.
+(29:36-29:38) Monica: Oh, that is not a happy "hi."...Hi.
+(29:38-29:40) Monica: Carol's pregnant.
+(29:40-29:42) Phoebe: Oh, I found it.Carol's pregnant.
+(29:44-29:47) Monica: Well, what...? What?
+(29:47-29:49) Ross: Yeah.
+(29:50-29:51) Ross: Do that for another two hours...
+(29:51-29:54) Ross: ...you might be where I am right about now.
+(29:55-29:58) Chandler: Kind of puts that whole pillow thing in perspective, huh, Mon?
+(30:01-30:03) Rachel: Well, now, how do you fit into this whole thing?
+(30:03-30:06) Ross: Well, Carol says she and Susan want me to be involved.
+(30:06-30:11) Ross: But if I'm not comfortable with it, I don't have to be involved.
+(30:11-30:13) Ross: Basically, it's totally up to me.
+(30:13-30:15) Phoebe: She is so great. I miss her.
+(30:21-30:22) Monica: What does she mean by "involved"?
+(30:22-30:25) Chandler: I mean, presumably, the biggest part of your job is done.
+(30:27-30:30) Ross: Anyway, they want me to go down to this...
+(30:30-30:32) Ross: ...sonogram thing with them tomorrow.
+(30:33-30:34) Rachel: So, what are you gonna do?
+(30:34-30:36) Ross: I have no idea.
+(30:36-30:40) Ross: No matter what I do, though, I'm still gonna be a father.
+Joey starts to eat the rest of the lasagne and everyone turns and stares at him.
+(30:50-30:51) Joey: Well, this is still ruined, right?
+Location:  Monica and Rachel's
+Monica and Rachel's, Monica and Ross are pouring wine for their parents.
+(30:57-31:01) Mrs. Geller: Oh. Martha Lugwin's daughter is gonna call you.
+(31:03-31:06) Mrs. Geller: Mm. What's that curry taste?
+(31:06-31:08) Mrs. Geller: Curry.
+(31:09-31:10) Mrs. Geller: Mm.Curry.
+(31:12-31:15) Ross: I think they're great. I really do.
+(31:15-31:16) Mr. Geller: You remember the Lugwins?
+(31:16-31:18) Mr. Geller: The big one had a thing for you, didn't she?
+(31:19-31:20) Mrs. Geller: They all had a thing for him.
+(31:21-31:22) Ross: Oh, Mom.
+(31:22-31:25) Monica: I'm sorry. Why is this girl going to call me?
+(31:25-31:29) Mrs. Geller: Oh, she just graduated, and she wants to be something in cooking or food...
+(31:29-31:31) Mrs. Geller: ...or I don't know.
+(31:31-31:33) Mrs. Geller: Anyway, I told her you had a restaurant, so...
+(31:33-31:36) Monica: No, Mom. I don't have a restaurant. I work in a restaurant.
+(31:36-31:39) Mrs. Geller: Well, they don't have to know that.
+(31:42-31:44) Monica: Ross, could you come and help me with the spaghetti.
+(31:45-31:46) Monica: Yes.
+(31:46-31:48) Mrs. Geller: Oh, we're having spaghetti. That's...Yeah.
+(31:48-31:50) Mrs. Geller: ...easy.
+(31:52-31:55) Monica: I know this is going to sound unbelievably selfish on my part...
+(31:55-31:58) Monica: ...but were you planning on bringing up the whole baby/lesbian thing?
+(31:58-32:01) Monica: Because I think it might take some of the heat off me.
+everyone is now eating.
+(32:04-32:08) Mrs. Geller: What that Rachel did to her life. We ran into her parents at the club.
+(32:08-32:10) Mrs. Geller: They were not playing very well.
+(32:11-32:13) Mr. Geller: I'm not gonna tell you what they spent on that wedding...
+(32:13-32:16) Mr. Geller: ...but $40,000 is a lot of money.
+(32:18-32:22) Mrs. Geller: Well, at least she had the chance to leave a man at the altar.
+(32:25-32:28) Monica: What's that supposed to mean?
+(32:25-32:28) Monica: Nothing.
+(32:28-32:32) Mrs. Geller: It's an expression.
+(32:28-32:32) Monica: No, it's not.
+(32:32-32:33) Mr. Geller: Don't listen to your mother.
+(32:33-32:35) Mr. Geller: You're independent and you always have been.
+(32:35-32:38) Mr. Geller: Even when you were a kid, and you were chubby...
+(32:38-32:41) Mr. Geller: ...and you had no friends, you were just fine.
+(32:43-32:46) Mr. Geller: You'd read alone in your room. And your puzzles...
+[Time Lapse.
+(32:49-32:53) Mr. Geller: Look, there are people, like Ross, who need to shoot for the stars.
+(32:53-32:56) Mr. Geller: With his museum and his papers getting published.
+(32:57-32:59) Mr. Geller: Other people are satisfied with staying where they are.
+(32:59-33:03) Mr. Geller: I'm telling you, these are the people who never get cancer.
+[Time Lapse.
+(33:06-33:10) Mr. Geller: And I read about these women trying to have it all, and I thank God...
+(33:10-33:13) Mr. Geller: ...our little Harmonica doesn't seem to have that problem.
+(33:16-33:18) Monica: So, Ross, what's going on with you?
+(33:19-33:23) Monica: Any stories? No news, no little anecdotes to share with the folks?
+(33:24-33:25) Monica: Okay, okay.
+(33:27-33:32) Ross: Ahem. Look, I, uh... I realize you guys have been wondering...
+(33:32-33:34) Ross: ...what exactly happened between Carol and me.
+(33:35-33:37) Ross: And so, well, here's the deal.
+(33:39-33:41) Ross: Carol's a lesbian.
+(33:43-33:45) Ross: She's living with a woman named Susan.
+(33:47-33:50) Ross: She's pregnant with my child.
+(33:51-33:54) Ross: And she and Susan are going to raise the baby.
+Stunned silence ensues.
+(33:58-34:00) Mrs. Geller: And you knew about this?
+Location:  Central Park
+Central Park, everyone's there.
+(34:14-34:17) Joey: Your folks are really that bad, huh?
+(34:17-34:20) Ross: Well, you know, these people are pros.
+(34:22-34:25) Ross: They know what they're doing. They take their time.
+(34:25-34:28) Ross: They get the job done.
+(34:29-34:33) Monica: Boy, I know they say that you can't change your parents.
+(34:33-34:36) Monica: Boy, if you could, I'd want yours.
+(34:38-34:39) Monica: Must pee.
+(34:41-34:42) Phoebe: You know, it's even worse when you're twins.Must pee.
+(34:42-34:45) Rachel: You're a twin?
+(34:42-34:45) Phoebe: Oh, yeah. We don't speak.
+(34:45-34:48) Phoebe: She's like this high-powered, driven, career-type.
+(34:48-34:50) Chandler: What does she do?
+(34:48-34:50) Phoebe: She's a waitress.
+(34:52-34:55) Rachel: All right. You guys, I kind of gotta clean up now.
+(34:55-34:58) Monica: Chandler, you're an only child, right? You don't have any of this.
+(34:58-35:02) Chandler: Well, no, although I did have an imaginary friend...
+(35:02-35:04) Chandler: ...who my parents actually preferred.
+(35:06-35:08) Chandler: Hit the lights, please.
+Joey turns off the lights, and they all leave as Rachel starts to clean up.  Ross enters from the bathroom.
+(35:15-35:16) Ross: How long was I in there?The lights, please..
+(35:18-35:19) Rachel: I'm just cleaning up.
+(35:20-35:23) Ross: Oh, do you, uh...? Do you need any help?
+(35:23-35:26) Rachel: Um, okay, sure. Thanks.
+(35:32-35:33) Rachel: Anyway...
+(35:34-35:37) Ross: So you nervous about Barry tomorrow?
+(35:37-35:40) Rachel: Oh, a little.
+(35:37-35:40) Rachel: Mm-hm.
+(35:41-35:43) Ross: a lot.
+(35:41-35:43) Rachel: Mm-hm.
+(35:43-35:46) Rachel: So got any advice?A lot.Mm.
+(35:46-35:49) Rachel: You know, as someone who's recently been dumped.
+(35:51-35:54) Ross: Well, you may want to steer clear of the word "dumped."
+(35:55-36:00) Mr. Geller: Chances are he's going to be this broken shell of a man. You know?
+(36:00-36:04) Ross: So you should try not to look too terrific. I know it'll be hard.
+(36:07-36:12) Ross: Or, you know, hey, I'll go down there, and I'll give Barry back his ring.
+(36:12-36:16) Ross: And you can go with Carol and Susan to the OB-GYN.
+(36:19-36:21) Rachel: You've got Carol tomorrow.
+(36:22-36:24) Rachel: When did it get so complicated?
+(36:24-36:25) Rachel: Got me.
+(36:26-36:29) Rachel: Remember when we were in high school?Got me.
+(36:26-36:29) Ross: yeah.
+(36:29-36:31) Rachel: I mean, didn't you think you' were gonna meet someone...
+(36:31-36:34) Rachel: ...fall in love, and that'd be it?
+(36:39-36:41) Rachel: Ross?
+(36:39-36:41) Rachel: Yes, yes.
+(36:43-36:47) Rachel: Oh. Man. I never thought I'd be here.Yes, yes!
+(36:54-36:56) Ross: Me neither.
+Location:  Carol's OB/GYN
+Carol's OB/GYN, Carol is waiting.
+(37:13-37:15) Ross: Hi. Sorry I'm late. I got stuck at work.
+(37:16-37:19) Ross: There was this big dinosaur thing. Anyway...
+(37:20-37:22) Ross: Hi.
+Susan enters holding a drink.
+(37:22-37:25) Carol: Ross, you Remember Susan.Hi.
+(37:22-37:25) Ross: How could I forget?
+(37:26-37:27) Susan: Ross.
+(37:27-37:30) Ross: Hello, Susan. Good shake, good shake.
+(37:32-37:34) Ross: So, uh, we're just waiting for?
+(37:34-37:37) Ross: Dr. Oberman.
+(37:34-37:37) Ross: Dr. Oberman. Okay, and is he...?Dr. Oberman.
+(37:37-37:39) Susan: She.
+(37:37-37:39) Ross: Of course, "she."
+(37:40-37:45) Ross: She, uh, familiar with our special situation?
+(37:45-37:47) Carol: Yes, and she's very supportive.
+(37:47-37:49) Ross: Great. Okay, that's great. Heh.
+(37:51-37:52) Ross: No, I'm...
+(37:53-37:55) Carol: Thanks.
+(38:09-38:10) Carol: Quack, quack...
+(38:11-38:13) Carol: ...quack, quack, quack.
+(38:13-38:14) Carol: Ross?Quack, quack..
+(38:15-38:16) Carol: That opens my cervix.
+Location:  Barry's office
+Barry's office, Barry is working on patient, Robbie, as Rachel enters.
+(38:23-38:26) Rachel: Barry?
+(38:23-38:26) Barry: Come on in.
+(38:26-38:27) Rachel: Are you sure?
+(38:27-38:30) Barry: It's fine, it's fine. Robbie's gonna be here for hours.
+(38:30-38:31) Barry: Huh?
+(38:34-38:36) Barry: So how are you doing?Huh?!
+(38:37-38:39) Rachel: I'm...
+(38:39-38:41) Rachel: I'm okay.
+(38:42-38:43) Rachel: You look great.
+(38:44-38:45) Rachel: Yeah, well...
+(38:46-38:48) Bernice: Dr. Farber, Jason Greenspan's gagging.Yeah, well..
+(38:48-38:51) Barry: Be right there. I'll be back in a second.
+As Barry exits Robbie stares at Rachel.
+(38:56-38:58) Rachel: I dumped him.
+(38:59-39:00) Rachel: Okay.
+(39:09-39:10) Rachel: Oh!
+(39:15-39:20) Rachel: Ross.
+Location:  Carol's OB/GYN
+Carol's OB/GYN, they're talking about how this is going to work.
+(39:15-39:20) Ross: So, um...? So how's this going to work...
+(39:20-39:21) Ross: ...ahem, you know, with us?
+(39:22-39:25) Ross: You know, when, like, important decisions have to be made?
+(39:25-39:26) Carol: Give me a "for instance."
+(39:26-39:28) Ross: Well, I don't know. Okay, okay.
+(39:28-39:31) Ross: How about with the baby's name?
+(39:28-39:31) Ross: Marlon...
+(39:31-39:35) Ross: Marlon.
+(39:31-39:35) Carol: ...if it's a boy. Minnie, if it's a girl.Marlon-Marlon?!
+(39:37-39:38) Ross: As in "Mouse"?
+(39:40-39:41) Carol: As in my grandmother.
+(39:42-39:45) Ross: Still, you say "Minnie," you hear "Mouse."
+(39:47-39:49) Ross: How about, um...
+(39:50-39:51) Ross: How about "Julia"?
+(39:52-39:53) Ross: Julia.
+(39:53-39:54) Susan: We agreed on Minnie.Julia..
+(39:54-39:57) Ross: It's funny, um, we agreed we'd spend our lives together.
+(39:57-40:00) Ross: Things change. Roll with the punches.
+(40:01-40:03) Ross: I believe Julia's on the table.
+Location:  Barry's office
+Barry's office, Rachel is doing her makeup in the mirror on Barry's lamp as Barry enters.
+(40:05-40:07) Barry: Oh. Sorry about that.
+(40:10-40:13) Barry: So, what have you been up to?
+(40:13-40:16) Rachel: Oh. Not much.
+(40:16-40:19) Rachel: I got a job.
+(40:16-40:19) Barry: Hey, that's great.
+(40:20-40:21) Rachel: Why are you so tan?
+(40:23-40:24) Barry: Oh, I, uh...
+(40:24-40:26) Barry: I went to Aruba.
+(40:26-40:29) Rachel: Oh, no. You went on our honeymoon alone?
+(40:29-40:31) Rachel: No.
+(40:33-40:36) Barry: See, uh, I went with...
+(40:37-40:39) Barry: Now, this may hurt.
+(40:37-40:39) Robbie: Me?
+(40:39-40:40) Barry: No.
+(40:43-40:44) Barry: I went with Mindy.
+(40:45-40:47) Barry: Mindy?
+(40:48-40:49) Rachel: My maid of honor, Mindy?
+(40:49-40:52) Barry: Yeah, well, we're kind of a thing now.
+Location:  Carol's OB/GYN
+(40:54-40:56) Carol: Well, I'm...
+(40:57-40:58) Rachel: You got plugs.
+(40:59-41:02) Barry: Careful, careful. They haven't quite taken yet.
+(41:02-41:04) Rachel: And you got lenses.
+(41:05-41:07) Rachel: But you hate sticking your finger in your eye.
+(41:08-41:09) Barry: Not for her.
+(41:10-41:12) Barry: Oh.
+(41:13-41:16) Barry: Listen, I really wanted to thank you.
+(41:16-41:18) Rachel: Okay.
+(41:19-41:20) Barry: About a month ago, I wanted to hurt you...
+(41:21-41:23) Barry: ...more than I've ever wanted to hurt anyone in my life.
+(41:23-41:25) Barry: And I'm an orthodontist.
+(41:26-41:27) Barry: Wow.
+(41:27-41:31) Barry: You know, you were right. I mean, I thought we were happy.
+(41:31-41:32) Barry: We weren't happy.
+(41:34-41:36) Barry: But with Mindy...
+(41:37-41:38) Barry: ...now I'm happy.
+(41:40-41:41) Barry: Spit.
+(41:40-41:41) Rachel: What?
+(41:41-41:43) Robbie: Me.
+(41:45-41:47) Robbie: Anyway, um...
+(41:48-41:51) Rachel: I guess, uh... I guess this belongs to you.
+(41:53-41:55) Rachel: And thank you for giving it to me.
+(41:56-41:58) Barry: Well, thank you for giving it back.
+(42:02-42:03) Barry: Hello.
+(42:07-42:09) Susan: Oh, please. What's wrong with Helen?
+(42:09-42:10) Susan: Helen Geller?
+(42:11-42:15) Ross: I don't think so.
+(42:11-42:15) Carol: Hello, it's not gonna be Helen Geller.
+(42:15-42:16) Ross: Thank you.
+(42:17-42:18) Carol: No. I mean, it's not Geller.
+(42:19-42:21) Ross: What, it's gonna be Helen Willick?
+(42:21-42:26) Carol: No, actually, um, we talked about Helen Willick Bunch.
+(42:28-42:30) Ross: Well, wait a minute. Why is she in the title?
+(42:30-42:32) Susan: Because it's my baby too.
+(42:32-42:35) Ross: That's funny. Really? I don't remember you making any sperm.
+(42:38-42:41) Susan: And we all know what a challenge that is.
+(42:41-42:43) Ross: Uh-huh. See?
+(42:41-42:43) Carol: All right, you two, stop it.
+(42:43-42:45) Ross: No, no. She gets a credit. Hey, I'm in there too.
+(42:45-42:49) Carol: Honestly. You're not actually suggesting Helen Willick Bunch Geller.
+(42:50-42:51) Carol: I think that borders on child abuse.
+(42:51-42:55) Ross: Of course not. I'm suggesting Geller Willick Bunch.
+(42:55-42:58) Susan: Oh, no. No, no, no. You see what he's doing?
+(42:58-43:00) Susan: He knows no one is gonna say all those names.
+(43:00-43:03) Susan: He knows they'll wind up calling her Geller. Then he gets his way.
+(43:03-43:05) Ross: My way? You think this is my way?
+(43:05-43:09) Ross: Believe me, of all the ways I ever imagined this moment in my life being...
+(43:09-43:12) Ross: ...this is not my way. You know what? This is too hard.
+(43:13-43:16) Dr. Oberman: Knock, knock. How are we today? Any nausea?
+(43:16-43:18) Carol,Dr. Oberman,Susan,Ross: a little.
+(43:16-43:18) Carol,Dr. Oberman,Susan,Ross: Just a little.
+(43:19-43:24) Dr. Oberman: Well, I was just wondering about the mother-to-be, but, uh, thanks for sharing.
+(43:24-43:25) Dr. Oberman: Uh, lie back.
+(43:26-43:28) Ross: You know what? I'm gonna go.
+(43:28-43:32) Ross: Um, I don't think I can be involved in this particular family thing.
+He turns to go, but the sound of the sonogram catches hes ear.  He returns and stares at it.
+(43:43-43:45) Ross: Oh, my God.
+(43:45-43:46) Susan: Look at that.
+(43:46-43:48) Susan: I know.
+Location:  Monica and Rachel's apartment
+Monica and Rachel's apartment, everyone is watching the tape of the sonogram.   Rachel is on the phone.
+(43:59-44:01) Ross: Well, isn't that amazing?I know.
+(44:04-44:06) Joey: What are we supposed to be seeing here?
+(44:08-44:12) Chandler: I don't know, but I think it's about to attack the Enterprise.
+(44:16-44:19) Phoebe: You know, if you tilt your head to the left and relax your eyes...
+(44:19-44:21) Phoebe: ...it kind of looks like an old potato.
+(44:22-44:25) Ross: Then don't do that, all right?
+(44:27-44:28) Phoebe: Monica?
+(44:28-44:30) Ross: What do you think?
+(44:30-44:31) Ross: Mm-hm.
+(44:33-44:34) Ross: Are you welling up?Mm-hmm.
+(44:34-44:35) Monica: no.
+(44:34-44:35) Ross: you are.
+(44:36-44:38) Ross: You are. You're welling up.
+(44:36-44:38) Monica: No, I'm not.
+(44:38-44:41) Ross: You're gonna be an aunt.
+(44:38-44:41) Monica: Oh, shut up.
+(44:42-44:44) Monica: Hi, Mindy.
+(44:44-44:46) Rachel: Hi, it's Rachel.
+(44:46-44:50) Rachel: Yeah, I'm fine. I saw Barry today.
+(44:50-44:52) Rachel: Oh, yeah, yeah, he told me.
+(44:52-44:55) Rachel: No, it's okay. Really, it's okay.
+(44:55-44:59) Rachel: I hope you two are very happy. I really do.
+(44:59-45:02) Rachel: And, Min, you know, if everything works out...
+(45:02-45:07) Rachel: ...and you guys end up getting married and having kids and everything...
+(45:07-45:11) Rachel: ...I just hope they have his old hairline and your old nose.
+(45:15-45:19) Rachel: Okay, I know it was a cheap shot, but I feel so much better now.
+
+One episode end, followed by next episode.
+
+Location:  Central Perk
+Central Perk, everyone but Phoebe is there.
+(45:24-45:26) Phoebe: Hi, guys.
+(45:24-45:26) Rachel,Phoebe,Joey,Chandler,Monica,Ross: Hey, Phoebe.
+(45:26-45:27) Ross: Hey, oh, how did it go?
+(45:28-45:29) Phoebe: Um, not so good.
+(45:29-45:32) Phoebe: He walked me to the subway and said, "We should do this again."
+(45:32-45:35) Rachel,Phoebe,Joey,Chandler,Monica,Ross: Ouch.
+(45:32-45:35) Rachel: What? He said, "We should do it again."
+(45:35-45:36) Rachel: That's good, right?
+(45:36-45:39) Monica: Uh, no. Loosely translated, "We should do this again," means:
+(45:39-45:41) Monica: You will never see me naked.
+(45:43-45:44) Rachel: Since when?
+(45:44-45:47) Joey: Since always. It's, like, dating language.
+(45:48-45:51) Joey: You know, like, "It's not you," means, "It is you."
+(45:52-45:53) Chandler: You're such a nice guy, means:
+(45:54-45:56) Chandler: I'm gonna be dating leather-wearing alcoholics鈥?11
+(45:56-45:58) Chandler: ...and complaining about them to you.
+(45:59-46:02) Phoebe: Or, you know, um, "I think we should see other people," means:
+(46:02-46:04) Phoebe: Ha, ha, I already am.
+(46:05-46:06) Rachel: And everybody knows this?
+(46:07-46:09) Joey: Oh, yeah. Cushions the blow.
+(46:09-46:11) Chandler: Like when you're a kid and your parents put your dog to sleep...
+(46:12-46:14) Chandler: ...and they tell you it went off to live on some farm.
+(46:14-46:17) Ross: That's funny. No, because, uh, our parents actually did...
+(46:17-46:20) Ross: ...uh, send our dog off to live on a farm.
+(46:20-46:23) Monica: Uh, Ross?
+(46:24-46:27) Ross: Ha, ha. Hello. The Milner's farm in Connecticut?
+(46:27-46:30) Ross: The Milners, they had this unbelievable farm.
+(46:30-46:32) Ross: They had horses and rabbits that he could chase.
+(46:33-46:34) Ross: And it was...
+(46:37-46:39) Ross: Oh, my God. Chi-Chi.
+Location:  Chandler and Joey's
+Chandler and Joey's, Chandler is helping Joey rehearse for a part.
+(47:34-47:37) Chandler: So how does it feel knowing you're about to die?
+(47:37-47:40) Joey: Warden, in five minutes my pain will be over.
+(47:40-47:45) Joey: But you'll have to live with the knowledge that you sent an honest man to die.
+(47:46-47:48) Chandler: Hey, that was really good.
+(47:46-47:48) Chandler: Yeah?
+(47:48-47:50) Joey: Yeah.
+(47:48-47:50) Joey: Thanks. Let's keep going.
+(47:50-47:55) Chandler: Okay. "So, what do you want from me, Dimon? Huh?"
+(47:57-48:01) Joey: I just wanna go back to my cell, because in my cell, I can smoke.
+(48:01-48:03) Chandler: Smoke away.
+(48:11-48:12) Joey: Heh.
+Joey takes out a pack of cigarettes and a lighter.  He fumbles and drops the lighter.  Then he lights a cigarett, takes a drag, and coughs.
+(48:16-48:20) Chandler: I think this is probably why Dimon smokes in his cell alone.
+(48:21-48:23) Joey: What?
+(48:21-48:23) Chandler: Relax your hand.
+(48:23-48:25) Chandler: Let your wrist go.
+Joey lets his wrist go limp.
+(48:25-48:26) Chandler: Not so much.
+(48:25-48:26) Joey: Whoa.
+(48:26-48:28) Chandler: Hey.
+(48:29-48:31) Chandler: All right. Now try taking a puff.Hey!
+(48:31-48:32) Chandler: Right.
+Joey tries and visibly winces.
+(48:34-48:38) Chandler: Okay, no, give it to me.
+(48:34-48:38) Joey: No, no, no. I'm not giving you a cigarette.
+(48:38-48:41) Chandler: No, it's fine. It's fine. Look, do you want to get this part or not? Here.
+Joey reluctantly gives him the cigarette.
+(48:42-48:45) Chandler: All right. Now, don't think of it as a cigarette.
+(48:45-48:49) Chandler: Think of it as the thing that has been missing from your hand.
+(48:50-48:52) Chandler: When you're holding it, you feel right.
+(48:53-48:55) Chandler: You feel complete.
+(48:53-48:55) Joey: You miss it?
+(48:55-48:57) Chandler: No, not so much.
+(48:59-49:01) Chandler: All right. Now we smoke.
+(49:04-49:06) Chandler: Oh, my God.
+(49:14-49:15) Monica: No, no, no.
+(49:15-49:19) Monica: They say it's the same as the distance from the tip of a guy's thumb...
+(49:19-49:20) Monica: ...to the tip of his index finger.
+The guys stretch out their fingers.
+(49:27-49:29) Joey: That's ridiculous.
+(49:30-49:32) Ross: Can I use either thumb?
+(49:34-49:36) Rachel: All right. Don't tell me, don't tell me.
+(49:37-49:40) Rachel: Decaf cappuccino for Joey.
+(49:42-49:43) Rachel: Coffee, black.
+(49:45-49:46) Rachel: Latte.
+(49:48-49:49) Rachel: And an iced tea.
+(49:50-49:53) Rachel: I'm getting pretty good at this.
+(49:50-49:53) Rachel: Excellent. That's very good.Yeah. Yeah, excellent.
+(49:53-49:54) Rachel: Good for me.
+The gang swaps all the drinks for what they ordered as Phoebe enters.  She sits down without saying hi.
+(50:08-50:11) Joey: You okay, Phoebe?
+(50:13-50:14) Monica: What did they do to you?Yeah- no- I'm just- it's, I haven't worked- It's my bank.
+(50:14-50:16) Phoebe: It's nothing, it's just... Okay.
+(50:16-50:19) Phoebe: I'm going through my mail, and I open up their monthly "statement."
+(50:19-50:21) Ross: Easy.
+(50:23-50:25) Phoebe: And there's 500 extra dollars in my account.
+(50:25-50:29) Chandler: Oh, Satan's minions at work again.
+(50:29-50:32) Phoebe: Yes, because now I have to go down there and deal with them...
+(50:32-50:35) Joey: What are you talking about? Keep it.
+(50:32-50:35) Phoebe: It's not mine.
+(50:35-50:38) Phoebe: I didn't earn it. If I kept it, it would be like stealing.
+(50:38-50:42) Rachel: Yeah, but if you spent it, it would be like shopping.
+(50:43-50:44) Rachel: Okay. Okay.
+(50:44-50:46) Phoebe: Let's say I bought a really great pair of shoes.
+(50:47-50:49) Phoebe: Do you know what I'd hear with every step I took?
+(50:49-50:52) Phoebe: Not mine. Not mine. Not mine.
+(50:52-50:55) Phoebe: And even if I was happy, okay, and skipping...
+(50:55-50:58) Phoebe: ...I'd hear, "Not mine. Not mine."
+(50:58-51:00) Monica: We're with you. We got it.
+Chandler leans over the back of the couch out of sight.
+(51:00-51:05) Phoebe: Okay, I'd never be able to enjoy it. It'd be like this giant karmic debt.
+(51:05-51:08) Rachel: Chandler, what are you doing? Hey.
+(51:08-51:10) Rachel: What are you doing?
+Chandler tries to shrug nonchalantly but eventually he has to exhale a mouthful of smoke.
+(51:13-51:15) Rachel,Joey,Phoebe,Chandler,Monica,Ross: Oh, gross.Hey. Whaddya doing?
+(51:16-51:18) Ross: What is this?
+(51:16-51:18) Chandler: I'm smoking. I'm smoking. I'm smoking.
+(51:18-51:21) Phoebe: I can't believe you. You've been so good for three years.
+(51:21-51:23) Chandler: And this is my reward.
+(51:25-51:28) Ross: Hold on a second. Just think about what you went through the last time you quit.
+(51:28-51:30) Chandler: Okay, so this time I won't quit.
+(51:30-51:33) Rachel,Joey,Phoebe,Chandler,Monica,Ross: Put it out.
+(51:30-51:33) Chandler: All right. I'm putting it out.
+(51:34-51:36) Chandler: Oh, no.
+(51:36-51:38) Phoebe: I can't drink this now.
+(51:42-51:44) Monica: All right, I'm gonna go change. I've got a date.
+(51:44-51:47) Rachel: Is this Alan again? How's it going?
+(51:47-51:51) Monica: It's going pretty good, you know? It's nice and we're having fun.
+(51:51-51:53) Joey: so when do we get to meet the guy?
+(51:51-51:53) Monica: Yeah.
+(51:54-51:55) Monica: Let's see, today's Monday...
+(51:56-51:57) Monica: Never.
+(51:56-51:57) Rachel,Joey,Phoebe,Chandler,Monica,Ross: Come on.
+(51:58-52:01) Monica: no, Not after What happened with Steve.
+(51:58-52:01) Chandler: What are You talking about?
+(52:01-52:04) Chandler: We love Steve. Steve was sexy.
+(52:07-52:08) Chandler: Sorry.
+(52:08-52:12) Monica: Look, I don't know how I feel about him yet. Give me a chance to figure it out.
+(52:12-52:14) Rachel: Well, then can we meet him?
+(52:14-52:15) Monica: No.
+(52:15-52:17) Monica: Sorry.
+Location:  Iridium
+Iridium, Monica and Paula are at work.
+(52:20-52:22) Monica: Why should I let them meet him?
+(52:22-52:25) Monica: I bring a guy home and within five minutes they're all over him.
+(52:25-52:29) Monica: I mean, they're like coyotes picking off the weak members of the herd.
+(52:30-52:34) Paula: Listen, as someone who's seen more than her share of bad beef...
+(52:34-52:38) Paula: ...I'll tell you, that is not such a terrible thing.
+(52:38-52:41) Paula: Come on, they're your friends. They're looking out after you.
+(52:41-52:44) Monica: I know, I know. I wish that once I'd bring a guy home they actually liked.
+(52:44-52:48) Paula: Well, you do realize that the odds of that happening are a little slimmer...
+(52:48-52:50) Paula: ...if they never get to meet the guy.
+Location:  Monica and Rachel's
+Monica and Rachel's, Chandler is smoking out on the balcony, Phoebe is absent.
+(52:52-52:54) Joey: Let it go, Ross.
+(52:54-52:56) Ross: Yeah? Well, you didn't know Chi-Chi.
+(53:00-53:01) Monica: Do you all promise?
+(53:01-53:04) Alan,Rachel,The Guys,Phoebe,Joey,Chandler,Monica,Ross: Yeah, we promise. We'll be good.
+(53:01-53:04) Alan,Rachel,The Guys,Phoebe,Joey,Chandler,Monica,Ross: We promise.
+(53:04-53:07) Monica: Chandler, do you promise to be good?
+Chandler makes a 'Cross my heart' sign.  It starts to rain and he taps on the window.
+(53:15-53:19) Joey: You can come in, but your filter tip little buddy has to stay outside.
+(53:25-53:27) Joey: Hey, Pheebs.
+Chandler sulkilty picks up a garbage can lid and uses it as an umbrella.
+Phoebe enters, walks to the couch, sits down, and begins to read a letter without saying hi.
+(53:29-53:32) Phoebe: Dear Ms. Buffay: Thank you for calling attention to our error.Hey, Pheebs.
+(53:32-53:36) Phoebe: We have credited your account $500. We're sorry for the inconvenience
+(53:36-53:39) Phoebe: ...and hope you'll accept this football phone
+(53:42-53:44) Phoebe: ...as our free gift. Do you believe this?
+(53:45-53:48) Phoebe: Now I have $1000 and a football phone.
+(53:50-53:52) Rachel: What bank is this?
+The intercom buzzes.
+(53:53-53:55) Monica: Okay, it's him.
+(53:57-53:58) Monica: Who is it?
+(53:57-53:58) Alan: Alan.
+(53:58-54:00) Joey: Chandler. He's here.
+Chandler comes in, dripping wet.
+(54:03-54:05) Monica: Okay, please be good. Please?
+(54:05-54:07) Monica: I mean, remember how much you like me.
+She opens the door and Alan enters.
+(54:09-54:13) Monica: Hi. Alan, this is everybody. Everybody, this is Alan.
+(54:15-54:17) Monica: Hi.
+(54:15-54:17) Rachel,The Guys,Phoebe,Joey,Chandler,Monica,Ross: Hey.
+(54:18-54:21) Alan: I've heard so much about all you guys.
+Everyone laughs.
+[Time lapse, Alan is leaving.
+(54:27-54:30) Monica: Thanks, I'll call you tomorrow.
+(54:33-54:34) Monica: Okay.
+(54:34-54:38) Monica: Okay, let's let the Alan-bashing begin.
+(54:38-54:40) Monica: Who's gonna take the first shot?
+(54:40-54:41) Monica: Hmm?
+Silence.
+(54:42-54:43) Monica: Come on.
+(54:44-54:45) Monica: I'll go.
+(54:48-54:50) Ross: Let's start with the way he kept picking at...
+(54:51-54:52) Ross: You know, I'm sorry, I can't do this.
+(54:52-54:54) Ross: Can't do it. We loved him.
+(54:54-54:57) Ross: we loved him.
+(54:54-54:57) Monica: Wait a minute.Loved him! Yeah! He's great!
+(54:57-54:59) Monica: We're talking about someone that I'm going out with?
+(54:59-55:01) Alan,Rachel,The Guys,Phoebe,Joey,Chandler,Monica,Ross: Yes.
+(54:59-55:01) Rachel: And did You notice?
+(55:01-55:02) The Guys: Yeah.
+(55:07-55:10) Joey: Know what was great? The way his smile was kind of crooked.
+(55:10-55:12) Phoebe: Yes, yes. Like the man in the shoe.
+(55:13-55:14) Phoebe: What shoe?
+(55:16-55:17) Phoebe: From the nursery rhyme....What shoe?
+(55:17-55:19) Phoebe: There was a crooked man who had a crooked smile
+(55:20-55:22) Phoebe: ...who lived in a shoe for a while
+Dubious pause.
+(55:25-55:28) Ross: So I think Alan...
+(55:28-55:29) Ross: ...will become the yardstick...
+(55:29-55:32) Ross: ...against which all future boyfriends will be measured.
+(55:32-55:33) Rachel: What future boyfriends?
+(55:33-55:36) Rachel: No, no. I think this could be, you know, "it."
+(55:36-55:37) Rachel: Really?
+(55:36-55:37) Monica: Oh, Yeah.
+(55:38-55:41) Chandler: I'd marry him just for his David Hasselhoff impression alone.
+(55:41-55:44) Chandler: You know I'm gonna be doing that at parties, right?
+(55:48-55:50) Ross: You know What I like most about him?
+(55:48-55:50) Alan,Rachel,The Guys,Phoebe,Joey,Chandler,Monica,Ross: What?
+(55:51-55:54) Ross: The way he makes me feel about myself.
+(55:57-55:59) Alan,Rachel,The Guys,Phoebe,Joey,Chandler,Monica,Ross: Yeah.
+Central Perk, Monica is alone as Ross, Rachel, Chandler, and Joey enter dejectedly in softball gear.
+(56:12-56:13) Monica: Hi.
+Location:  Central Perk
+(56:16-56:17) Monica: How was the game?
+(56:18-56:20) Monica: Well...
+(56:20-56:22) Ross: We won!
+(56:20-56:22) Rachel,Joey,Chandler,Monica,Ross: We won! Thank you! Yeah.
+(56:23-56:26) Monica: Fantastic. I have one question: How is that possible?
+(56:27-56:30) Joey: Alan.
+(56:27-56:30) Ross: He was unbelievable.
+(56:30-56:33) Ross: He was like that Bugs Bunny cartoon where Bugs is playing all the positions.
+(56:33-56:37) Ross: But instead of Bugs, it was first base, Alan. Second base, Alan...
+(56:41-56:44) Rachel: I mean, it was like he made us into a team.
+(56:44-56:46) Chandler: Yep. We sure showed those Hasidic jewelers...
+(56:46-56:49) Chandler: ...a thing or two about softball.
+(56:46-56:49) Monica: Nice.
+(56:50-56:52) Monica: Can I ask you guys a question?
+(56:52-56:55) Monica: Do you ever think that Alan is maybe sometimes...
+(56:55-56:59) Joey: What?
+(56:55-56:59) Monica: I don't know. A little too Alan?
+(56:59-57:02) Rachel: Oh, no. That's not possible. You can never be too Alan.
+(57:03-57:07) Monica: Yeah, it's his innate Alan-ness that we adore.
+(57:08-57:10) Chandler: I, personally, could have a gallon of Alan.Yeah, it's his, uh, innate Alan-ness that-that-that we adore.
+(57:16-57:19) Chandler: Hey, Lizzy.
+Location:  A street
+A street, Phoebe walks up to a homeless person she knows.
+(57:16-57:19) Lizzie: Hey, Weird Girl.Hey, Lizzie.
+(57:19-57:22) Phoebe: I brought You alphabet soup.
+(57:19-57:22) Lizzie: did You pick out the vowels?
+(57:22-57:25) Phoebe: Yes, but I left in the Y's. Because, you know, "Sometimes Y."
+(57:26-57:27) Phoebe: Um, I also have something else for you.
+(57:27-57:29) Phoebe: Saltines?
+(57:29-57:31) Phoebe: No, but would you like $1000 and a football phone?Saltines?
+(57:32-57:33) Ross: What?
+(57:34-57:36) Lizzie: Oh, my God.
+(57:36-57:39) Lizzie: Oh, my God. There's really money in here.
+(57:36-57:39) Lizzie: I know.
+(57:39-57:41) Lizzie: Weird Girl, what are you doing?I know.
+(57:41-57:43) Phoebe: Oh, I want you to have it. I don't want it.
+(57:43-57:46) Lizzie: No, no. I have to give you something.
+(57:46-57:48) Phoebe: No, it's fine. You don't...
+(57:48-57:50) Lizzie: Do you want my tinfoil hat?
+(57:50-57:53) Phoebe: No, because you need that. No, it's okay. Thanks.
+(57:53-57:55) Lizzie: Please. Let me do something.
+(57:56-57:57) Phoebe: Okay, all right. I'll tell you what.
+(57:58-58:00) Phoebe: You buy me a soda and then we're even. Okay?
+(58:01-58:02) Phoebe: Okay.
+(58:01-58:02) Phoebe: Okay.
+Location:  A Street
+Chandler's office, Chandler looks around, opens his desk drawer, takes a puff of a cigarette, sprays around some air freshener, and takes some breath spray.  He types for a little while, opens the drawer again, and takes another drag of the cigarette.   While not paying attention, he sprays the breath spray around the room, takes a squirt of air freshener and gags.
+A Street, Phoebe and Lizzie are at a hot dog vendor.
+(59:04-59:06) Lizzie: Keep the change.Okay.Okay.
+(59:07-59:08) Lizzie: Thanks, Lizzy.
+(59:08-59:09) Lizzie: Sure you don't want a pretzel?
+(59:09-59:12) Phoebe: No, I'm fine. Thanks.
+(59:09-59:12) Lizzie: See you.
+(59:18-59:20) Lizzie: Huh.
+Phoebe opens the can and reacts.
+(59:20-59:21) Phoebe: A thumb?
+Location:  Central Perk
+Central Perk, Phoebe is telling everyone about her discovery.
+Phoebe nods.
+(59:22-59:23) Rachel,Phoebe,Joey,Chandler,Monica,Ross: Ew.A thumb?!
+(59:24-59:26) Phoebe: I know, I know. I opened it up and there it was...
+(59:26-59:29) Phoebe: ...just floating in there, like this tiny little hitchhiker.
+(59:31-59:34) Chandler: Maybe it's a contest, you know? Like "Collect all five."
+(59:36-59:38) Phoebe: Does, um, anyone wanna see?
+(59:38-59:39) Rachel,Phoebe,Joey,Chandler,Monica,Ross: No, thanks.
+Chandler lights a cigarette.
+(59:40-59:43) Rachel,Phoebe,Joey,Chandler,Monica,Ross: Oh, hey, don't do that. Come on.
+(59:40-59:43) Rachel,Phoebe,Joey,Chandler,Monica,Ross: Cut that out.
+(59:43-59:44) Rachel: It's worse than the thumb.
+(59:46-59:48) Chandler: Hey, this is so unfair.
+(59:48-59:53) Monica: Why is it unfair?
+(59:48-59:53) Chandler: so I have a flaw. Big deal.
+(59:53-59:55) Chandler: Like Joey's constant knuckle-cracking isn't annoying?
+(59:56-59:58) Chandler: And Ross, with his over-pronouncing every single word.
+(59:58-60:00) Chandler: And Monica, with that snort when she laughs.
+(60:00-60:03) Chandler: I mean, what the hell is that thing?
+(60:05-60:08) Chandler: I accept all those flaws. Why can't you accept me for this?
+An awkward silence ensues.
+(60:15-60:18) Joey: Does the knuckle-cracking bother everybody, or just him?
+(60:20-60:22) Rachel: Well...
+(60:22-60:24) Rachel: ...I could live without it.
+(60:25-60:26) Joey: Huh.
+(60:27-60:32) Joey: Well, is it, like, a little annoying? Or is it like when Phoebe chews her hair?
+Phoebe spits out her hair.
+(60:34-60:38) Ross: Now, don't listen to him, Pheebs, all right? I think it's endearing.
+(60:38-60:40) Joey: Oh, you do, do you?
+Monica laughs and snorts.
+(60:46-60:49) Ross: You know, there's nothing wrong with speaking correctly.
+(60:50-60:52) Rachel: Indeed there isn't.
+(60:55-60:56) Rachel: I should really get back to work.
+(60:56-61:00) Phoebe: Yeah, otherwise someone might get what they actually ordered.
+(61:01-61:05) Rachel: Oh. The hair comes out and the gloves come off.
+Location:  Iridium
+They degenerate into bickering and Chandler happily starts to smoke, undisturbed.
+Iridium, Monica and Paula are working.
+(61:21-61:24) Monica: Did you ever go out with a guy your friends all really like?
+(61:25-61:26) Paula: No.
+(61:27-61:31) Monica: Okay. Well, I'm going out with a guy my friends all really like.
+(61:33-61:35) Paula: We talking about the coyotes here?
+(61:35-61:39) Paula: Heh. All right. A cow got through.
+(61:40-61:41) Monica: Can you believe it?
+(61:41-61:43) Monica: It's just, you know what?
+(61:43-61:46) Monica: I just don't feel the thing.
+(61:46-61:49) Monica: I mean, they feel the thing. I don't feel the thing.
+(61:49-61:52) Paula: Honey, you should always...
+(61:52-61:54) Monica: ...feel the thing.
+(61:57-61:59) Paula: Listen, if that's how you feel about the guy, Monica, dump him.
+(62:00-62:02) Monica: I know, it's just gonna be really hard.
+(62:02-62:04) Paula: Yeah, he's a big boy. He'll get over it.
+(62:04-62:09) Monica: No, he'll be fine. It's the other five I'm worried about.
+Location:  Cental Perk
+Cental Perk, Joey and Ross are persecuting Chandler about his smoking.
+(62:09-62:11) Joey: Do you have any respect for your body?
+(62:11-62:13) Ross: Don't you realize what you're doing to yourself?
+(62:13-62:16) Ross: Hey, you know, I've had it with you and your cancer...
+(62:16-62:18) Chandler: ...and your emphysema and your heart disease.
+(62:18-62:21) Chandler: The bottom line is, smoking is cool, and you know it.
+(62:24-62:25) Chandler: Ahem. Chandler?
+(62:26-62:27) Rachel: It's Alan. He wants to speak to you.
+(62:27-62:29) Chandler: Really? He does?
+(62:31-62:33) Chandler: Hey, buddy. What's up?
+(62:35-62:37) Chandler: Oh, she told you about that, huh?
+(62:38-62:42) Chandler: Well, yeah. I have one now and then. Well, yeah, now.
+(62:43-62:44) Chandler: Well, it's not that bad...
+(62:47-62:48) Chandler: Well, that's true.
+(62:51-62:55) Chandler: Gee, you know, no one's ever put it like that before.
+(62:55-62:57) Chandler: Well, okay. Thanks.
+(63:08-63:09) Rachel: God, he's good.
+(63:10-63:12) Ross: If only he were a woman.
+(63:12-63:14) Rachel: Yeah.
+Location:  Monica and Rachel's
+They give each other a dubious look.
+Monica and Rachel's, everyond except Monica and Joey is watching Lambchop.
+(63:19-63:21) Chandler: Oh, Lamb Chop.
+(63:21-63:23) Chandler: How old is that sock?
+(63:25-63:28) Chandler: If I had a sock on my hand for 30 years, it'd be talking too.
+(63:30-63:35) Ross: Okay, I think it's time to change somebody's nicotine patch.
+(63:36-63:37) Ross: Hey.
+(63:38-63:39) Monica: Where's Joey?
+(63:40-63:43) Chandler: Joey ate my last stick of gum, so I killed him.
+(63:44-63:46) Chandler: Do you think that was wrong?
+(63:48-63:51) Rachel: I think he's across the hall.
+(63:48-63:51) Monica: Thanks.
+(63:51-63:53) Ross: There you go.
+(63:53-63:56) Chandler: Ooh, I'm alive with pleasure now.
+(63:57-64:00) Ross: Hey, Pheebs, you gonna have the rest of that Pop Tart?
+(64:02-64:04) Phoebe: Does anyone want the rest of this Pop Tart?
+(64:06-64:07) Ross: Hey, I might.
+(64:09-64:10) Phoebe: I'm sorry.
+(64:10-64:14) Phoebe: You know, those stupid soda people gave me $7000 for the thumb.
+(64:14-64:16) Rachel,Phoebe,Joey,Chandler,Monica,Ross: Oh, my God.
+(64:14-64:16) Phoebe: Seven thousand dollars?
+(64:16-64:19) Phoebe: And on my way over here, I stepped in gum.
+(64:20-64:22) Phoebe: What is up with the universe?
+(64:23-64:24) Joey: What's going on?
+(64:24-64:27) Monica: Nothing. I just think it's nice when we're all here together.
+(64:27-64:30) Joey: It's even nicer when everyone gets to wear their underwear.
+(64:33-64:36) Rachel: Uh, Joey...
+(64:33-64:36) Joey: Oh.
+(64:38-64:40) Monica: Okay.
+(64:38-64:40) Rachel,Phoebe,Joey,Chandler,Monica,Ross: Oh, Come on.
+(64:41-64:43) Monica: Please, guys, we have to talk.
+(64:43-64:46) Phoebe: Wait, wait. I'm getting a d鑼卝鑴?vu.
+(64:46-64:47) Phoebe: No, I'm not.
+(64:50-64:52) Monica: All right, we have to talk.
+(64:50-64:52) Phoebe: There it is.
+(64:56-64:57) Monica: Okay, it's about Alan.
+(64:58-65:00) Monica: There's something you should know.
+(65:02-65:06) Monica: Oh, man, there's really no easy way to say this. Uh...
+(65:07-65:09) Monica: I've decided to break up with Alan.
+They all gasp and clutch each other.
+(65:14-65:16) Ross: Is there somebody else?
+(65:18-65:20) Monica: No, no, no. It's just...
+(65:20-65:23) Monica: ...you know, things change. People change.
+(65:24-65:26) Rachel: We didn't change.
+(65:28-65:30) Joey: So that's it? It's over?
+(65:32-65:33) Joey: Just like that?
+(65:34-65:36) Phoebe: You know, you let your guard down.
+(65:36-65:39) Phoebe: You know, you start to really care about someone, and I just...
+(65:43-65:45) Monica: Look, I could go on pretending...
+(65:43-65:45) Joey: Okay.
+(65:46-65:48) Monica: No. No, that wouldn't be fair to me...
+(65:48-65:50) Monica: ...it wouldn't be fair to Alan, or to you.
+(65:50-65:52) Chandler: Yeah, well, who wants fair?
+(65:52-65:56) Ross: I mean, I just want things back, you know, the way they were.
+(65:58-66:02) Ross: I'm sorry.
+(65:58-66:02) Chandler: Oh, she's sorry. I feel better.I'm sorry..
+(66:04-66:06) Rachel: I just can't believe this.
+(66:06-66:10) Rachel: I mean, with the holidays coming up. I wanted him to meet my family.
+(66:12-66:15) Monica: I'll meet someone else. There'll be other Alans.
+(66:15-66:16) Rachel,Phoebe,Joey,Chandler,Monica,Ross: Yeah, right.
+(66:21-66:24) Monica: Are you guys gonna be okay?
+(66:21-66:24) Ross: Hey, hey. We'll be fine.
+(66:25-66:27) Ross: We're just gonna need a little time.
+(66:28-66:30) Ross: I understand.
+(66:35-66:36) Monica: Wow.
+Location:  A Restaurant
+A Restaurant, Monica is breaking the news to Alan.
+(66:37-66:40) Monica: I'm really sorry.Wow.
+(66:37-66:40) Monica: Yeah. I mean, I'm sorry too.
+(66:41-66:43) Alan: But I gotta tell you, I'm a little relieved.
+(66:43-66:45) Alan: Relieved?
+(66:43-66:45) Monica: Yeah, well...
+(66:46-66:48) Alan: ...I mean, I had a great time with you.
+(66:49-66:50) Alan: I just can't stand your friends.
+Location:  Monica and Rachel's
+Monica and Rachel's, everyone is mopping around and eating ice cream.
+(66:58-67:01) Rachel: Remember when we went to Central Park and rented boats?
+(67:03-67:05) Rachel: That was fun.
+(67:05-67:09) Ross: Yeah. He could row like a Viking.
+(67:14-67:16) Ross: Hi.
+(67:14-67:16) Ross: Hi.
+(67:18-67:19) Ross: So how'd it go?Hi.Mmm.
+(67:21-67:23) Monica: You know.
+(67:21-67:23) Phoebe: did He mention us?
+(67:29-67:31) Monica: He says he's really gonna miss you guys.
+(67:38-67:39) Ross: You had a rough day, huh?
+(67:40-67:42) Ross: Oh, You have no idea.
+(67:40-67:42) Ross: Come here.
+(67:46-67:48) Chandler: That's it. I'm getting cigarettes.
+(67:46-67:48) Rachel,Phoebe,Chandler,Monica,Ross: No, no, no.
+(67:48-67:50) Chandler: I don't care. I don't care.
+(67:50-67:53) Chandler: Game's over. I'm weak. I've gotta smoke. I've gotta have the smoke.
+(67:53-67:56) Phoebe: If you never smoke again, I'll give you $7000.
+(67:57-67:59) Chandler: Yeah, all right.
+
+One episode end, followed by next episode.
+
+Location:  Central Perk
+Central Perk, everyone is there except Joey.
+(68:01-68:02) Monica: Oh, that's good.
+(68:02-68:04) Phoebe: Okay. All right, Phoebe?
+(68:02-68:04) Phoebe: Okay, Okay.
+(68:04-68:08) Phoebe: If I were omnipotent for a day, I would want, um, world peace...
+(68:09-68:12) Phoebe: ...no more hunger, good things for the rain forest.
+(68:13-68:14) Phoebe: And bigger boobs.
+(68:16-68:18) Ross: Well, see, you took mine, so...
+(68:20-68:21) Ross: Chandler, what about you?
+(68:21-68:25) Chandler: If I were omnipotent for a day, I'd make myself omnipotent forever.
+(68:25-68:27) Rachel: Heh. See, there's always one guy.
+(68:27-68:30) Rachel: If I had a wish, I'd wish for three more wishes.
+(68:33-68:34) Phoebe,Chandler,Ross,Monica,Joey,Rachel: Hey, Joey.
+(68:33-68:34) Phoebe,Chandler,Ross,Monica,Joey,Rachel: Hey, buddy.
+(68:34-68:36) Monica: What would you do if you were omnipotent?
+(68:37-68:39) Joey: Probably kill myself.
+(68:40-68:42) Monica: Excuse me?
+(68:42-68:46) Joey: Hey, if Little Joey's dead, then I got no reason to live, you know?
+(68:48-68:50) Ross: Joey, uh, omnipotent.
+(68:52-68:54) Joey: You are?
+(68:54-68:55) Joey: Ross, I'm...
+Location:  Central Perk
+Central Perk, Ross and Monica are watching Phoebe sleep.
+(69:48-69:50) Monica: How does she do that?
+(69:50-69:53) Ross: I cannot sleep in a public place.
+(69:53-69:55) Monica: Would you look at her?
+(69:55-69:58) Monica: She's so peaceful.
+(69:55-69:58) Monica: Yeah.
+(70:00-70:02) Phoebe: What? What? Hi.
+(70:02-70:04) Ross: It's okay, you know. You just nodded off again.
+(70:05-70:07) Monica: Oh.
+(70:05-70:07) Monica: What's going on with you?
+(70:07-70:08) Phoebe: I got no sleep last night.
+(70:07-70:08) Ross: Why?
+(70:09-70:12) Phoebe: My grandmother has this new boyfriend...
+(70:12-70:16) Phoebe: ...and they're both kind of insecure in bed, so...
+(70:16-70:17) Phoebe: And deaf.
+(70:19-70:23) Phoebe: So they're constantly having to reassure each other that they're having a good time.
+(70:23-70:25) Phoebe: You have no idea how loud they are.
+(70:28-70:31) Monica: You can stay with Rachel and me tonight.
+(70:28-70:31) Phoebe: Thanks.
+(70:31-70:33) Phoebe: 95,96 ,97
+Chandler and Joey enter.  Joey is counting his steps.
+(70:33-70:37) Joey: See, I told you. Less than 100 steps from our place to here.
+(70:37-70:40) Chandler: You got way too much free time, man.
+(70:40-70:43) Joey: Hey, there's the birthday boy.
+(70:44-70:45) Joey: Ross, check it out. Hockey tickets.
+(70:46-70:48) Joey: Rangers-Penguins tonight at the Garden. We're taking you.
+(70:48-70:50) Chandler: Happy birthday, pal.
+(70:48-70:50) Joey: We love You, man.
+(70:53-70:56) Ross: It's funny, my birthday was seven months ago.
+(70:56-70:59) Joey: So?
+(70:56-70:59) Ross: So I'm guessing you had an extra ticket...
+(70:59-71:02) Ross: ...and couldn't decide which one of you got to bring a date? Huh?
+(71:03-71:05) Chandler: Well, aren't we Mr. The-Glass-is-Half-Empty?
+(71:06-71:08) Ross: Oh, my God. Oh.
+(71:08-71:10) Ross: Is today the 20th? October 20th?
+(71:11-71:13) Monica: I was hoping you wouldn't remember.
+(71:11-71:13) Ross: Oh.
+(71:13-71:15) Joey: What's wrong with the 20th?Ohhh.
+(71:15-71:18) Chandler: Eleven days before Halloween? All the good costumes are gone?
+(71:19-71:22) Ross: Today's the day Carol and I...
+(71:22-71:25) Ross: ...first consummated...
+(71:25-71:28) Ross: ...our physical relationship.
+(71:29-71:31) Ross: We had sex.
+(71:33-71:35) Ross: You know what? I better pass on the game.
+(71:35-71:40) Ross: I think I'm just gonna go home and think about my ex-wife and her lesbian lover.
+(71:41-71:44) Joey: The hell with hockey. Let's all do that.
+(71:46-71:48) Chandler: Come on, Ross. You, me, Joey, ice?
+(71:49-71:51) Chandler: Guys' night out? Come on, what do you say, big guy?
+(71:51-71:53) Chandler: Huh? Huh? Huh?
+(71:53-71:55) Ross: What are You doing?
+(71:53-71:55) Chandler: I have no idea.
+(71:55-71:57) Ross: Come on, Ross.C'mon, Ross!
+(71:57-72:00) Ross: All right, all right. Maybe it will take my mind off it.
+(72:00-72:02) Ross: You promise to buy me a big foam finger?
+(72:00-72:02) Chandler: You got it.
+(72:02-72:05) Chandler: All right.
+Rachel runs up cluching an envelope.
+(72:02-72:05) Rachel: Look, Look, look. My first paycheck.
+(72:07-72:11) Rachel: Look at the window. There's my name. Hi, me.
+(72:12-72:14) Phoebe: I remember the day I got my first paycheck.
+(72:15-72:18) Phoebe: There was a cave-in in one of the mines, and eight people were killed.
+(72:20-72:21) Monica: Wow, you worked in a mine?
+(72:22-72:24) Phoebe: No, I worked at a Dairy Queen. Why?
+(72:28-72:30) Rachel: God, isn't this exciting? I earned this.
+(72:31-72:33) Rachel: I wiped tables for it. I steamed milk for it.
+(72:33-72:36) Rachel: And it was totally...
+(72:36-72:38) Rachel: ...not worth it.
+(72:38-72:41) Rachel: Who's FICA? Why's he getting all my money?
+(72:43-72:45) Rachel: I mean, what...? Chandler, look at that.
+(72:47-72:49) Chandler: Oh, this is not that bad.
+(72:49-72:52) Joey: Oh, you're fine, yeah, for a first job.
+(72:52-72:57) Ross: You can totally, totally live on this.
+(72:52-72:57) Monica: Oh, yeah, yeah.
+(72:58-72:59) Ross: By the way, great service today.
+(72:59-73:00) Phoebe,Chandler,Joey,Ross,Monica,Rachel,Leslie,Joanne,Guys,Kiki: Ooh.
+(72:59-73:00) Phoebe,Chandler,Joey,Ross,Monica,Rachel,Leslie,Joanne,Guys,Kiki: Oh, yeah.
+(73:00-73:02) Rachel: Terrific.
+(73:00-73:02) Monica: It was excellent.
+They all get their wallets out and give generous tips.
+(73:02-73:05) Rachel: Unbelievable. And all that milk and stuff? Great.Hockey! Hockey! Hockey.Rachel?
+(73:05-73:08) Guys: Hockey. Hockey.
+(73:18-73:21) Guys: Hockey. Hockey. Hockey.
+(73:23-73:24) Leslie: Rachel?
+(73:25-73:27) Rachel: Oh, my God!
+(73:33-73:36) Monica: I swear I've seen birds do this on Wild Kingdom.
+(73:37-73:39) Rachel: What are you guys doing here?
+(73:39-73:42) Kiki: Well, we were in the city shopping, and your mom said you work here...
+(73:42-73:45) Kiki: ...and it's true.
+(73:45-73:47) Joanne: Yeah.
+(73:47-73:50) Joanne: Look at you in the apron. You look like you're in a play.
+(73:53-73:57) Rachel: God, look at you. You are so big. I can't believe it.
+(73:57-73:59) Leslie: I know, I know. I'm a duplex.
+(74:01-74:02) Rachel: So, what's going on with you?
+(74:02-74:06) Joanne: Well, guess who my dad's making partner in his firm.
+(74:09-74:12) Kiki: And while we're on the subject of news...
+(74:15-74:16) Phoebe: Look, look. I have elbows.
+Location:  A Street
+A Street, Chandler and Joey are kicking a can to each other.
+(74:24-74:25) Chandler: Passes it up to Leetch.
+(74:25-74:27) Joey: Leetch spots Messier in the crease. Here's the pass.
+(74:28-74:29) Ross: Oh. Oh.We'll take a brief time out while Messier stops to look at some women's shoes.
+(74:30-74:34) Chandler: We'll take a time-out while Messier stops to look at some women's shoes.
+(74:35-74:40) Ross: Carol was wearing boots just like those the night that we first...
+(74:40-74:41) Ross: ...you know.
+(74:41-74:43) Ross: In fact, she, uh...
+(74:43-74:45) Ross: She never took them off. Ha, ha.
+(74:45-74:48) Ross: It's because we... Sorry. Sorry.
+(74:49-74:50) Rachel: I can't believe...
+They walk on.  Chandler and Joey start to talk but Ross stops and whines.
+(74:54-74:56) Joey: What?
+(74:54-74:56) Ross: Peach pit.
+(74:56-74:57) Chandler: Yes, bunny?
+(74:59-75:00) Ross: Peach pit.
+(75:00-75:03) Ross: That night, We, uh, had
+(75:00-75:03) Joey: Peaches?
+(75:03-75:05) Ross: Actually, nectarines, but basically.
+(75:07-75:10) Chandler: Could've been a peach.
+(75:07-75:10) Ross: Then we, uh...
+(75:10-75:14) Ross: Then we got dressed and I walked her to...
+(75:14-75:16) Ross: ...the bus stop.
+(75:17-75:19) Ross: I'm fine.
+(75:19-75:22) Joey: Hey, that woman's got an ass like Carol's.
+(75:26-75:29) Joey: What? I thought we were trying to find stuff.
+Location:  Central Perk
+Central Perk, Rachel, Lesile, Kiki, and Joanne are talking.
+(75:30-75:33) Rachel: Oh, come on, you guys. Tell me all the dirt.
+(75:33-75:37) Kiki: Well, the biggest news is still you dumping Barry at the altar.
+(75:39-75:43) Joanne: All right, let's talk reality for a second.
+(75:39-75:43) Rachel: Okay.
+(75:43-75:45) Joanne: When are You coming home?
+(75:43-75:45) Rachel: What?
+(75:45-75:46) Rachel: Guys, I'm not.
+(75:46-75:51) Joanne: Heh. Come on. This is us.
+(75:46-75:51) Rachel: I'm not.
+(75:51-75:55) Rachel: This is what I'm doing now. I've got this job.
+(75:55-75:57) Kiki: Waitressing?
+(75:57-76:00) Rachel: Heh. I'm not just waitressing.
+(76:00-76:02) Rachel: I mean, I'm...
+(76:02-76:04) Rachel: I, um...
+(76:05-76:08) Rachel: I write the specials on the specials board.
+(76:08-76:12) Rachel: And I take the dead flowers out of the vase.
+(76:13-76:18) Rachel: Um, and sometimes Arturo lets me put the little chocolate blobbies on the cookies.
+(76:18-76:21) Leslie: Well, your mom didn't tell us about the blobbies.
+Location:  Monica and Rachel's
+Monica and Rachel's, Phoebe and Monica are in pajamas and Monica is making something in the blender as Rachel enters.
+(76:32-76:34) Monica: Hey, Rach. How was it with your friends?
+(76:38-76:42) Monica: Okay, how would you like some Tiki Death Punch?
+(76:42-76:43) Rachel: What's that?
+(76:43-76:46) Monica: Well, it's rum and...
+(76:43-76:46) Rachel: Okay.
+(76:49-76:52) Monica: We thought since Phoebe's staying over we'd have a slumber party.
+(76:52-76:55) Monica: We got some trashy magazines, we got cookie dough, we got Twister.
+(76:56-76:58) Phoebe: Ooh, ooh. And I brought Operation.
+(76:59-77:03) Phoebe: But I lost the tweezers, so we can't operate.
+(77:03-77:06) Phoebe: But we can prep the guy.
+(77:08-77:10) Monica: Rach, it's the Visa-card people.
+(77:10-77:12) Rachel: Oh, God. Ask them what they want.
+(77:12-77:16) Monica: Could you please tell me what this is in reference to?
+(77:17-77:18) Monica: Yes, hold on.
+(77:18-77:20) Monica: Um, they say there's been unusual activity on your account.
+(77:21-77:25) Rachel: But I haven't used my card in weeks.
+(77:21-77:25) Monica: That is the unusual activity.
+(77:27-77:29) Monica: They just wanna see if you're okay.
+(77:29-77:31) Rachel: They wanna know if I'm okay?
+(77:31-77:34) Rachel: Okay, they wanna know if I'm okay. Okay, let's see.
+(77:34-77:37) Rachel: Well, let's see. The FICA guys took all my money.
+(77:38-77:41) Rachel: Everyone I know is either getting married or getting pregnant or getting promoted...
+(77:42-77:43) Rachel: ...and I'm getting coffee.
+(77:43-77:45) Rachel: And it's not even for me.
+(77:46-77:49) Rachel: So if that sounds like I'm okay, okay, then you can tell them I'm okay. Okay?
+(77:52-77:55) Monica: Uh, Rachel has left the building.
+(77:56-78:00) Monica: can You call back?
+(77:56-78:00) Rachel: All right. Come on.
+(78:01-78:03) Rachel: Let's play Twister.
+Location:  Madison Square Garden
+Madison Square Garden, the guys are trying to find their seats.
+(78:11-78:15) Ross: Sorry, Sorry, Sorry.
+(78:15-78:16) Ross: Uh-oh.
+(78:16-78:19) Chandler: What? There was ice there that night with Carol?
+(78:19-78:23) Chandler: Plastic seats? Four thousand angry Pittsburgh fans?
+(78:24-78:28) Ross: No, actually, I was just saying it looks like we're not sitting together.
+(78:28-78:32) Ross: But now that you mention it, there was ice there that night.
+(78:32-78:35) Ross: It was the first frost.
+(78:35-78:38) Ross: We were鈥?113
+(78:35-78:38) Joey: Sit. Just sit down. Sit.
+Location:  Monica and Rachel's
+Monica and Rachel's, they're all hanging out in the living room.
+(78:38-78:39) Monica: You should feel great.
+(78:39-78:42) Monica: You're doing this amazing independent thing.
+(78:42-78:44) Rachel: Monica, what is so amazing?
+(78:44-78:49) Rachel: I gave up like everything. And for what?
+(78:49-78:50) Phoebe: You are just like Jack.
+(78:51-78:52) Rachel: Jack from downstairs?
+(78:53-78:56) Phoebe: No, Jack and the Beanstalk.
+(78:56-78:59) Monica: Ah, the other Jack.
+(78:56-78:59) Phoebe: yeah, right.
+(78:59-79:03) Phoebe: See, he gave up something, but then he got those magic beans.
+(79:03-79:07) Phoebe: And then he woke up and there was this big plant...
+(79:07-79:11) Phoebe: ...outside of his window, full of possibilities and stuff.
+(79:11-79:15) Phoebe: And he lived in a village, and you live in the Village.
+(79:15-79:19) Rachel: Okay, but, Pheebs, Pheebs, Jack gave up a cow.
+(79:19-79:21) Rachel: I gave up an orthodontist.
+(79:21-79:24) Rachel: Okay, I know I didn't love him, but...
+(79:24-79:26) Phoebe: Oh, see, Jack did love the cow.
+(79:27-79:30) Rachel: But, see, it was a plan, you know? It was clear.
+(79:30-79:33) Rachel: Everything was figured out, and now everything's just kind of like...
+(79:33-79:35) Phoebe: Flupie?
+(79:33-79:35) Rachel: yeah.
+(79:37-79:40) Monica: You're not the only one. We don't know where we're going.
+(79:40-79:43) Monica: You gotta figure, at some point, it's gonna come together...
+(79:43-79:46) Monica: ...and it's just gonna be "unflupie."
+(79:46-79:47) Phoebe: Yeah, like that's a word.
+(79:51-79:54) Rachel: Okay, but, Monica, what if it doesn't come together?
+(79:56-79:58) Rachel: Pheebs?
+(79:59-80:02) Phoebe: Well, because you just... I don't like this question....Pheebs?
+(80:03-80:07) Rachel: Okay, see? See, you guys? What if we don't get magic beans?
+(80:07-80:10) Rachel: I mean, what if all we've got are...
+(80:10-80:12) Rachel: ...beans?
+Location:  Madison Square Garden
+Madison Square Garden, the guys are watching the game.
+(80:15-80:19) Ross: Get him! Get him! Get him!
+(80:19-80:22) Ross: Get... Yes! You're not laughing now, are you, pal?
+(80:22-80:26) Chandler: That's all you need, a bunch of toothless guys hitting each other with sticks.
+(80:26-80:28) Ross: Pass it. Pass it.
+(80:28-80:32) Chandler,Ross: He's open, he's open. Shoot it, shoot it, shoot it!He's open!
+(80:35-80:37) Chandler,Ross: Whoa. Oh.
+The player shoots and the puck flies off the rink and hits Ross in the face.  Chandler looks concered until he notices...
+(80:38-80:42) Chandler: Hey, look, we're on that TV thing.
+Location:  Monica and Rachel's
+(80:38-80:42) Monica: Ooh, ooh, ooh.
+(80:42-80:45) Chandler: I got it!
+(80:42-80:45) Rachel: Hey, hey, we got it! Hey!
+(80:56-80:57) Chandler: Excuse me.
+(80:57-81:02) Receptionist: It says to call this number if you're not completely satisfied with this candy bar.
+(81:06-81:09) Receptionist: Well, I'm not completely satisfied.
+(81:10-81:11) Chandler: Listen, it's kind of an emergency.
+(81:11-81:14) Chandler: I guess you'd know that, or we'd be in the predicament room.
+(81:17-81:20) Receptionist: Hold on. Fill these out. Sit over there.
+(81:20-81:23) Ross: Look, I don't wanna make any trouble, okay?
+(81:23-81:27) Ross: But I'm in a lot of pain here, all right? My face is dented.
+(81:27-81:31) Receptionist: Well, you'll have to wait your turn.
+(81:27-81:31) Joey: Well, how long do you think it'll be?
+(81:32-81:33) Receptionist: Any minute now.
+(81:36-81:39) Ross: Hey, listen... Ooh.
+(81:42-81:47) Ross: I wake up and I start to cry
+(81:47-81:49) Ross: Ain't no hope in...
+(81:50-81:55) Rachel: Oh. I'm so sorry, you guys. I didn't mean to bring you down.
+(81:55-81:57) Monica: No, you were right.
+(81:57-82:00) Monica: I don't have a plan.
+(82:02-82:03) Pizza Guy: Pizza guy.
+(82:04-82:06) Rachel: Thank God
+(82:04-82:06) Rachel: Food.
+(82:06-82:08) Monica: Phoebe?
+(82:06-82:08) Monica: What?
+(82:08-82:12) Monica: Do you have a plan?
+(82:08-82:12) Phoebe: I don't even have a "plan".
+(82:15-82:17) Pizza Guy: Hi. One mushroom, green pepper and onion?
+(82:18-82:21) Rachel: No, no, no. That's not what we ordered.
+(82:21-82:26) Rachel: We ordered a fat-free crust with extra cheese.
+(82:28-82:31) Pizza Guy: Wait, you're not G. Stephanopoulos?
+(82:28-82:31) Pizza Guy: No.
+(82:31-82:34) Pizza Guy: Oh, man. My dad's gonna kill me.
+(82:31-82:34) Monica: Wait.
+(82:34-82:38) Monica: Did you say G. Stephanopoulos?
+(82:38-82:40) Pizza Guy: Yeah, this one goes across the street. I must have given him yours.
+(82:41-82:43) Pizza Guy: Oh, bonehead. Bonehead.
+(82:44-82:48) Monica: Wait, was this a small Mediterranean guy with curiously intelligent good looks?
+(82:49-82:51) Pizza Guy: Yeah, that sounds about right.
+(82:51-82:55) Monica: was he wearing a stunning blue suit?
+(82:51-82:55) Phoebe: and a power tie?
+(82:56-82:58) Pizza Guy: No, pretty much just a towel.
+(82:58-83:00) Monica: Oh, God.
+(82:58-83:00) Chandler: Oh. Oh.
+(83:00-83:02) Rachel: Oh, My God.
+(83:00-83:02) Pizza Guy: You want me to take This back?
+(83:02-83:06) Monica: What? Are you nuts? We've got George Stephanopoulos' pizza.
+(83:08-83:09) Monica: Here.
+(83:11-83:12) Rachel: uh, Pheebs?
+(83:11-83:12) Rachel: Yeah?
+(83:12-83:14) Rachel: Who's George Snuffleupagus?
+(83:17-83:18) Phoebe: That's Big Bird's friend.
+(83:21-83:22) Monica: I see pizza.
+(83:22-83:25) Phoebe: Oh, I wanna see. Let me see. Let me see.
+(83:25-83:27) Rachel: Hello? Who are we spying on?
+(83:27-83:30) Monica: You know the White House adviser? Clinton's campaign guy?
+(83:30-83:34) Monica: The one with the great hair, sexy smile, really cute butt?
+(83:34-83:38) Rachel: Oh, him. The little guy. Oh, I love him.
+(83:38-83:41) Phoebe: Ooh. Oh, wait. Wait, I see a woman.
+(83:41-83:43) Monica: Tell me it's his mother.
+(83:44-83:46) Phoebe: Definitely not his mother.
+(83:44-83:46) Monica: Oh, no.
+(83:47-83:49) Phoebe: Oh, wait, she's walking across the floor.
+(83:49-83:51) Phoebe: She's walking, she's walking.
+(83:52-83:55) Phoebe: She's going for the pizza. Hey, that's not for you, bitch!
+Location:  Monica and Rachel's
+The Emergency Room, Joey is miming hockey pucks kitting foreheads.  Chandler realises it's getting tense and goes to the receptionist again.
+Monica and Rachel's, the girls are all out on the balcony.
+(84:00-84:03) Rachel: Dr. Max to Center 456.Excuse me, look, we've been here for over an hour, and a lot of people less sick than my friend have gone in. I mean, that guy with the toe thing? Who's he sleeping with?  Oh, c'mon Dora, don't be mad... I know we both said some things we didn't mean, but that doesn't mean we still don't love each other. Y'know, I feel like I've lost her.. Ba-!Light still out?Yeah.Oh. Maybe they're- napping.Oh please, they're having sex.Shut up!
+(84:04-84:07) Rachel: Dr. Max to Center 456.
+(84:10-84:13) Chandler: Excuse me. We've been here for over an hour...
+(84:13-84:15) Chandler: ...and people less sick than my friend have gone in.
+(84:15-84:18) Chandler: I mean, that guy with the toe thing? Who's he sleeping with?
+(84:22-84:25) Chandler: Oh, come on, Dora. Don't be mad.
+(84:25-84:27) Chandler: I know we both said some things...
+(84:29-84:30) Chandler: ...we didn't mean...
+(84:30-84:33) Chandler: ...but that doesn't mean we still don't love each other.
+(84:34-84:36) Chandler: You know, I feel like I've lost her.
+(84:41-84:42) Monica: Lights still out?
+(84:41-84:42) Rachel: yeah.
+(84:43-84:45) Monica: Well, maybe they're napping.
+(84:45-84:47) Rachel: Heh. Please. They're having sex.
+(84:48-84:49) Monica and Phoebe: Shut up.
+(84:54-84:58) Rachel: So, what do you think George is like?
+(84:58-85:00) Monica: I think he's shy.
+(84:58-85:00) Phoebe: Oh, yeah?
+(85:00-85:03) Monica: Yeah. I think you have to draw him out.
+(85:03-85:08) Monica: And then when you do, he's a preppy animal.
+(85:10-85:12) Monica: Come on.
+Location:  The Emergency Room
+The Emergency Room, Ross is still going on about his first night with Carol.
+(85:12-85:15) Ross: I remember the moonlight coming in through the open window...
+(85:16-85:19) Ross: ...and her face had the most incredible glow.
+(85:19-85:22) Chandler: Yes, the moon, the glow, the magical feeling.
+(85:23-85:24) Chandler: You did this part.
+(85:24-85:27) Chandler: Could I get some painkillers over here, please?
+(85:28-85:31) Joey: He's right, enough already. What is the big deal about today?
+(85:31-85:34) Joey: So you slept with her for the first time. So what?
+(85:34-85:37) Joey: You slept with her for seven years after that.
+(85:38-85:40) Ross: It's just a little more complicated than that.
+(85:40-85:43) Chandler: What? What is it? That she left you? That she likes women?
+(85:43-85:46) Chandler: That she left you for a woman that likes women?
+(85:46-85:47) Ross: A little louder.
+(85:47-85:50) Ross: There's a man on the 12th floor in a coma who didn't quite hear you.
+(85:54-85:55) Chandler: Then what?
+(85:56-85:59) Ross: My first time with Carol was...
+(85:59-86:00) Ross: Was my...What?
+(86:02-86:04) Joey: What?
+(86:06-86:09) Ross: It was my first...
+(86:09-86:10) Ross: ...time.
+(86:12-86:13) Joey: With Carol?
+(86:18-86:19) Joey: Oh.
+(86:20-86:23) Chandler: So in your whole life, you've only been with one?
+(86:23-86:24) Joey: Oh.
+(86:25-86:29) Joey: Oh, boy. Hockey was a big mistake.
+(86:30-86:33) Joey: There's a whole bunch of stuff we could've done tonight.
+Location:  Monica and Rachel's
+Monica and Rachel's, the girls are still out on the balcony.
+(86:34-86:37) Monica: Okay. Okay, I got one.
+(86:37-86:42) Monica: Do you remember that vegetarian pate that I made that you loved so much?
+(86:42-86:43) Phoebe: Uh-huh.
+(86:45-86:48) Monica: Well, unless goose is a vegetable...
+(86:48-86:51) Phoebe: Oh! Oh!
+(86:51-86:53) Phoebe: Okay, fine, fine.
+(86:53-86:56) Phoebe: Now I don't feel so bad about sleeping with Jason Hurley.
+(86:56-87:00) Monica: What? You slept with Jason?
+(86:56-87:00) Phoebe: You had already broken up.
+(87:00-87:03) Rachel: How long?
+(87:00-87:03) Phoebe: Just a couple hours.
+(87:03-87:05) Monica: Oh, that's nice.
+(87:05-87:07) Rachel: Okay, okay, okay, I got one.
+(87:09-87:10) Rachel: Anyway.
+(87:11-87:15) Rachel: The valentine Tommy Rollerson left in your locker was really from me.
+(87:15-87:16) Monica: Excuse me?
+(87:17-87:20) Rachel: Oh, hello? Like he was really gonna send you one.
+(87:23-87:25) Rachel: She was a big girl.
+(87:27-87:28) Rachel: Really?
+(87:28-87:33) Monica: Well, at least big girls don't pee in their pants in seventh grade.
+(87:33-87:36) Rachel: I was laughing. You made me laugh.
+(87:36-87:39) Phoebe: Oh, my God. There he is. There he is. There he is.
+(87:39-87:42) Monica: Where?
+(87:39-87:42) Phoebe: Right where we've been looking all night.
+(87:43-87:46) Rachel: Oh, he's so cute.He is so cute!
+(87:43-87:46) Monica: Oh, George, baby, drop the towel.
+(87:46-87:48) Phoebe,Rachel,Monica: Come on, drop the towel.
+(87:46-87:48) Monica: drop the towel.
+(87:48-87:50) Phoebe,Rachel,Monica: Please drop the towel. Drop it.
+(87:51-87:52) Phoebe,Rachel,Monica: Wow.
+Location:  The Emergency Room
+The Emergency Room, Ross is absent.
+(87:55-88:00) Joey: Man, can you believe he's only had sex with one woman?
+(88:01-88:03) Chandler: I think it's great.
+(88:03-88:08) Chandler: You know, it's sweet. It's romantic.
+(88:08-88:10) Joey: Really?
+(88:10-88:13) Chandler: No, are you kidding? The guy's a freak. I judge him.
+(88:13-88:14) Rachel: Hey, man.
+(88:13-88:14) Both: Hey, buddy.
+(88:15-88:16) Ross: Ah? Ah?
+(88:19-88:20) Receptionist: Oh.
+(88:20-88:22) Receptionist: That's attractive.
+(88:24-88:27) Chandler: Oh, I thought you were great in Silence of the Lambs.
+(88:30-88:33) Chandler: Oh, come on, admit it, all things considered, you had fun tonight.
+(88:33-88:34) Ross: Fun? Where was the fun?
+(88:34-88:37) Ross: Tell me specifically, which part was the fun part?
+(88:37-88:38) Ross: Where's my puck?
+(88:39-88:41) Joey: Oh. the kid has it.
+(88:39-88:41) Joey: the kid?
+(88:42-88:45) Ross: Ahem. Excuse me, uh, that's my puck.
+(88:45-88:49) Kid: I found it. Finders keepers, losers weepers.
+(88:53-88:55) Chandler: You gotta do it, man.
+(88:56-88:58) Ross: Oh, yeah? Well, I'm rubber, you're glue. Whatever you...
+(88:59-89:01) Ross: I can't do it.
+(89:01-89:04) Ross: Listen, uh, give me back My puck.
+(89:01-89:04) Kid: no.
+(89:04-89:05) Ross: Yes, How about?
+(89:04-89:05) Kid: no.
+(89:05-89:07) Ross: no, Come here. Just give me My puck.
+(89:05-89:07) Kid: no, no, no.
+(89:08-89:09) Receptionist: Hey, no roughhousing in my ER.
+(89:10-89:11) Ross: Give me my puck! Unh.
+(89:17-89:19) Ross: Now, that was fun.
+Location:  Monica and Rachel's
+Monica and Rachel's, Joey and the girls are playing twister.
+(89:25-89:27) Ross: Okay, Monica.
+(89:27-89:29) Ross: Right foot, red.
+(89:29-89:33) Monica: Could've played Monopoly, but no.
+There's a knock on the door, Chandler opens it, and silently hands back the cushion.
+(89:39-89:41) Chandler: Thanks.
+(89:47-89:50) Ross: Okay, Pheebs. Right hand, blue.
+(89:52-89:55) Ross: Good.
+The phone rings and Chandler answers it.
+(89:52-89:55) Chandler: Hmm?
+(89:59-90:01) Chandler: Hello?
+(90:02-90:05) Chandler: Oh. Rachel, it's the Visa-card people.
+(90:02-90:05) Rachel: Oh, okay. Will you take my place?
+(90:06-90:07) Chandler: All right. Yes, this is Rachel.
+(90:08-90:09) Rachel: no.
+(90:08-90:09) Rachel: Oh.
+(90:11-90:12) Rachel: Hello?
+(90:13-90:17) Rachel: Oh, yeah. No, I know. I haven't been using it much.
+(90:17-90:20) Rachel: Oh, well, thanks, but I'm okay, really.
+(90:20-90:22) Ross: To the green, to the green.
+(90:22-90:23) Ross: Oh, no.
+(90:22-90:23) Ross: to the green.
+(90:23-90:26) Rachel: I've got magic beans.
+(90:28-90:29) Rachel: No, no, never mind.
+(90:30-90:31) Chandler: To the left. To the left.
+(90:34-90:36) Rachel: I'm fine.
+
+
+Questions Examples:
+For C (Only about character, action and location should not appear in question and choices list): 
+- Perception: 
+  - Which two characters are shown to be brother and sister? (related_times: ['03:29-03:33', '19:03-19:05', ['57:29-57:31']])
+  - In these episode, which two characters fall in love with each other? (related_times: ['00:49-22:38', '22:40-67:59', '68:01-90:36'])
+- Inference
+  - Which two characters are shown to be twins or brother and sister? (related_times: ['00:49-22:38', '22:40-67:59', '68:01-90:36'])
+  - Who appears to be the most pragmatic and realistic in their approach to life? (related_times: ['00:49-00:52', '01:08-01:14', '06:34-06:36', '06:53-06:58', '18:48-19:08', '27:08-27:11', '31:42-31:45', '51:44-51:57', '61:21-62:09', '76:32-77:06', '79:37-79:46'])
+For A (Only about action, accurate name of character and location should not appear in question and choices list):
+- Perception:  
+  - What recurring action do the characters perform whenever someone enters their apartment? (related_times: ['00:49-22:38', '22:40-67:59', '68:01-90:36'])
+  - What action does the character perform as a symbolic gesture of leaving her old life of depending on her father? (related_times: ['00:49-22:38', '22:40-67:59', '68:01-90:36'])
+- Inference:
+  - How do the characters' reactions to receiving unexpected gifts reveal their values and beliefs? (related_times: ['50:23-53:48', '64:10-64:22', '72:02-73:05'])
+  - How does the recurring action of 'hugging' demonstrate the importance of physical touch and intimacy in their friendships? (related_times: ['03:55-04:07', '67:40-67:48'])
+For L (Only about location, accurate name of character and action should not appear in question and choices list):
+- Perception
+  - How many locations appears in these episodes? (related_times: ['00:00-25:00', '25:00-50:00', '50:00-80:00','80:00-90:00' ])
+  - Which location appear most in these episodes?(related_times: ['00:00-25:00', '25:00-50:00', '50:00-80:00','80:00-90:00' ])
+- Inference
+  - How do the different apartments featured in the episodes reflect the characters' personalities and lifestyles? (related_times: ['01:08-01:14', '05:22-06:31', '09:34-09:51', '11:16-11:29', '20:00-20:04', '27:02-27:57', '47:34-48:49', '63:19-63:56', '76:32-77:06', '78:38-80:12', '89:25-89:55'])
+  - How does the setting of Central Perk contribute to the overall tone and atmosphere of the episodes? (related_times: ['00:49-00:59', '17:31-17:54', '22:40-23:48', '45:24-46:39', '51:16-52:17', '56:12-57:19', '62:09-63:14', '68:01-68:55', '69:48-70:59'])
+For CA(Only about character and action,accurate name of location should not appear in question and choices list):
+- Perception:
+  - What action does Ross repeatedly perform as he reminisces about his relationship with Carol? (related_times: ['08:42-09:13', '11:16-11:29', '24:43-26:23', '30:01-30:15', '33:16-33:54', '37:13-43:48', '74:24-75:29', '85:12-86:33'])
+  - Which character is the most likely to use humor as a defense mechanism? (related_times: ['00:58-01:00', '01:14-01:16', '03:00-03:02', '05:42-05:44', '23:18-23:26', '27:48-27:50', '35:02-35:04', '46:09-46:14', '51:21-51:23', '59:46-60:08', '71:03-71:05', '88:01-88:13'])
+- Inference
+    - Based on their interactions, which character seems to be the most empathetic and understanding of others' feelings? (['01:02-01:08', '02:22-02:29', '06:59-07:17', '19:00-19:20', '45:24-46:04', '50:14-51:05', '57:16-58:02', '64:10-64:22', '70:07-70:31', '78:49-79:26', '83:11-83:18'])
+  - Why does Monica keep her relationship with Alan a secret from her friends for so long?
+  - How does the act of 'smoking' function as a symbol of Chandler's internal struggles and coping mechanisms? (related_times: ['23:18-23:31', '48:11-48:41', '51:05-51:23', '52:52-53:25', '58:01-59:43', '62:09-63:14', '67:46-67:59'])
+For CL(Only about character and location, action should not appear in question and choices list):
+- Perception:
+  - Which character is shown his/her work throughout all episodes?  (related_times: ['16:58-17:27', '23:18-23:26', '27:48-27:50', '52:20-62:09'])
+  - In which locations does Ross reveal his past with Carol?  (related_times: ['16:58-17:27', '52:20-52:50', '61:21-62:09'])
+- Inference
+  - How does the contrast between Monica and Rachel's apartment and Ross's apartment reflect their differing emotional states? (related_times: ['05:22-06:31', '09:34-09:51', '11:16-11:29', '20:00-20:04', '27:02-27:57', '47:34-48:49', '63:19-63:56', '76:32-77:06', '78:38-80:12', '89:25-89:55'])
+  - How does the setting of Monica and Rachel's apartment reflect the evolving dynamics of their friendship? (related_times: ['05:22-06:31', '08:08-08:10', '20:07-20:22', '27:58-29:34', '43:59-44:59', '63:19-63:56', '76:32-78:03', '78:38-80:12', '81:50-83:55', '89:25-90:36'])
+For AL(Only about action and location, accurate name of character should not appear in question and choices list):
+- Perception:
+  - In which location do the characters often gather to watch television? (related_times: ['05:22-07:59', '26:30-28:33', '63:19-65:56', '78:38-80:12', '89:25-90:36'])
+  - What action is repeatedly performed by different characters in both Monica's apartment and Central Perk? (related_times: ['05:22-07:59', '08:08-08:10', '20:07-20:22', '27:58-29:34'])
+- Inference
+  - How does the location of Chandler's office contribute to the portrayal of his professional life and personal struggles? (related_times: ['15:20-15:28', '58:01-59:04', '56:12-57:19', '62:09-63:14', '68:01-68:55', '72:02-73:27'])
+  - At which location do the characters frequently discuss their romantic relationships and drinking coffee? (related_times: ['00:49-05:07', '22:40-23:48', '45:24-46:39', '68:01-73:21'])
+For CAL(character, action and location should be in question and choices list):
+- Perception
+  - Who is shown working at Central Perk after giving up their credit cards? (related_times: ['18:48-19:50', '22:10-22:34', '45:24-46:39', '49:34-50:11', '52:52-53:55', '56:12-57:19', '62:09-63:14', '68:01-68:55', '72:02-73:27'])
+  - At which locations does Chandler smoke a cigarette? (related_times: ['18:48-19:50', '22:10-22:34', '45:24-46:39', '49:34-50:11', '52:52-53:55', '56:12-57:19', '62:09-63:14', '68:01-68:55', '72:02-73:27'])
+- Inference
+  - Which character works in a restaurant but dreams of having their own restaurant? (related_times: ['16:58-17:27', '31:33-31:36'])
+  - Why is Monica's apartment the primary location for the group's emotional discussions and support? (related_times: ['01:19-01:21', '26:30-26:34', '76:32-76:34'])
+
+Examples are for reference only, Please generate in the form of reference examples. The specific content of the generated questions should be based on the actual situation of the scripts. In addition, as you can see in related_times of Example, most questions are cover long range of multiple episodes\n\n, so you also should generate questions like these and these example can not be used any more.
+
+Requirements: I hope relevant segments can be cross video clips. I want to generate questions of different difficulty, so for each type you need to help me generate questions of different difficulty by either focusing on more long-term video cip, or focusing on more complex character's relationship. You can even generate questions cover the whole episode. And the generation of questions should ideally be spread throughout the video rather than concentrated in certain scenes. In order to better validate the question, Please generate the basis of inference, a list of the start and end times of the relevant segments in the video, and a list of the relevant characters related to question.
+
+Please generate questions with GroundTruth and choices list in multiple-choice format. For each 2 attributions and 7 topics, i.e., for each of the 14 type, you should generate at least 10 questions and questions should be with different degree of diffculty. You are specialize in using 'Tools_of_saving_quetsion' to save questions and you cane generate about 14 questions and save. Use tool 'Tools_of_saving_quetsion' to save question informations.
+
+
