@@ -72,11 +72,17 @@ We welcome community feedback and suggestions, and we look forward to exploring 
 If you find this repository useful, please consider giving ⭐ or citing:
 
 ```
-@inproceedings{wu2024friendsqa,
-    title={FriendsQA: A New Large-Scale Deep Video Understanding Dataset with Fine-grained Topic Categorization for Story Videos},
-    author={Wu, Zhengqian and Li, Ruizhe and Xu, Zijun and Wang, Zhongyuan and Xiao, Chunxia and Liang, Chao},
-    booktitle={The 39th Annual AAAI Conference on Artificial Intelligence},
-    year={2025},
+@article{Wu_Li_Xu_Wang_Xiao_Liang_2025, 
+    title={FriendsQA: A New Large-Scale Deep Video Understanding Dataset with Fine-grained Topic Categorization for Story Videos}, 
+    volume={39}, 
+    url={https://ojs.aaai.org/index.php/AAAI/article/view/32920}, 
+    DOI={10.1609/aaai.v39i8.32920}, 
+    number={8}, 
+    journal={Proceedings of the AAAI Conference on Artificial Intelligence}, 
+    author={Wu, Zhengqian and Li, Ruizhe and Xu, Zijun and Wang, Zhongyuan and Xiao, Chunxia and Liang, Chao}, 
+    year={2025}, 
+    month={Apr.}, 
+    pages={8523-8531} 
 }
 ```
 
